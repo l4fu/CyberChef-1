@@ -56,7 +56,7 @@ module.exports = function (grunt) {
         "Lints the code base",
         ["eslint", "exec:repoSize"]);
 
-    grunt.registerTask("lint", "");
+    // grunt.registerTask("lint", "eslint");
 
     grunt.registerTask("findModules",
         "Finds all generated modules and updates the entry point list for Webpack",
@@ -73,7 +73,7 @@ module.exports = function (grunt) {
 
 
     // Load tasks provided by each plugin
-    grunt.loadNpmTasks("grunt-eslint");
+    // grunt.loadNpmTasks("grunt-eslint");
     grunt.loadNpmTasks("grunt-webpack");
     grunt.loadNpmTasks("grunt-contrib-clean");
     grunt.loadNpmTasks("grunt-contrib-copy");
