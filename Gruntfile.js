@@ -56,7 +56,7 @@ module.exports = function (grunt) {
         "Lints the code base",
         ["eslint", "exec:repoSize"]);
 
-    // grunt.registerTask("lint", "eslint");
+    grunt.registerTask("lint", "");
 
     grunt.registerTask("findModules",
         "Finds all generated modules and updates the entry point list for Webpack",
