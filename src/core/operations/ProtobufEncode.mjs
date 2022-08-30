@@ -22,7 +22,7 @@ class ProtobufEncode extends Operation {
         this.name = "Protobuf Encode";
         this.module = "Protobuf";
         this.local="";
-        this.description = "Encodes a valid JSON object into a protobuf byte array using the input .proto schema.";
+        this.description = "使用input.proto模式将有效的JSON对象编码为protobuf字节数组。Encodes a valid JSON object into a protobuf byte array using the input .proto schema.";
         this.infoURL = "https://developers.google.com/protocol-buffers/docs/encoding";
         this.inputType = "JSON";
         this.outputType = "ArrayBuffer";

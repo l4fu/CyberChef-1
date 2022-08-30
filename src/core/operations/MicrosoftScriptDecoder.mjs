@@ -20,7 +20,7 @@ class MicrosoftScriptDecoder extends Operation {
         this.name = "Microsoft Script Decoder";
         this.module = "Default";
         this.local="";
-        this.description = "Decodes Microsoft Encoded Script files that have been encoded with Microsoft's custom encoding. These are often VBS (Visual Basic Script) files that are encoded and renamed with a '.vbe' extention or JS (JScript) files renamed with a '.jse' extention.<br><br><b>Sample</b><br><br>Encoded:<br><code>#@~^RQAAAA==-mD~sX|:/TP{~J:+dYbxL~@!F@*@!+@*@!&amp;@*eEI@#@&amp;@#@&amp;.jm.raY 214Wv:zms/obI0xEAAA==^#~@</code><br><br>Decoded:<br><code>var my_msg = &#34;Testing <1><2><3>!&#34;;\n\nVScript.Echo(my_msg);</code>";
+        this.description = "解码已使用Microsoft自定义编码编码的Microsoft编码脚本文件。这些文件通常是VBS（Visual Basic脚本）文件，用“'进行编码和重命名。vbe'扩展名或JS（JScript）文件重命名为'。jse的扩展<br><br><b>样本</b><br><br>编码：<br><code>#@~^rqaaa==-mD~sX|:/TP｛~J:+dYbxL~@！F@*@！++*@！&amp；eEI@&amp；jm.raY 214Wv:zms/obI0xEAAA=^#~@</code><br>解码：<br><code>var my_msg=&#34；测试<1><2><3>！&3534；；\ n\ nVScript.Echo（my_msg）；</code>Decodes Microsoft Encoded Script files that have been encoded with Microsoft's custom encoding. These are often VBS (Visual Basic Script) files that are encoded and renamed with a '.vbe' extention or JS (JScript) files renamed with a '.jse' extention.<br><br><b>Sample</b><br><br>Encoded:<br><code>#@~^RQAAAA==-mD~sX|:/TP{~J:+dYbxL~@!F@*@!+@*@!&amp;@*eEI@#@&amp;@#@&amp;.jm.raY 214Wv:zms/obI0xEAAA==^#~@</code><br><br>Decoded:<br><code>var my_msg = &#34;Testing <1><2><3>!&#34;;\n\nVScript.Echo(my_msg);</code>";
         this.infoURL = "https://wikipedia.org/wiki/JScript.Encode";
         this.inputType = "string";
         this.outputType = "string";

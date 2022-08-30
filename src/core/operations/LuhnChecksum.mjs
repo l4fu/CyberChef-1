@@ -21,7 +21,7 @@ class LuhnChecksum extends Operation {
         this.name = "Luhn Checksum";
         this.module = "Default";
         this.local="";
-        this.description = "The Luhn algorithm, also known as the modulus 10 or mod 10 algorithm, is a simple checksum formula used to validate a variety of identification numbers, such as credit card numbers, IMEI numbers and Canadian Social Insurance Numbers.";
+        this.description = "Luhn算法，也称为模10或模10算法，是一个简单的校验和公式，用于验证各种身份号码，如信用卡号码、IMEI号码和加拿大社会保险号码。The Luhn algorithm, also known as the modulus 10 or mod 10 algorithm, is a simple checksum formula used to validate a variety of identification numbers, such as credit card numbers, IMEI numbers and Canadian Social Insurance Numbers.";
         this.infoURL = "https://wikipedia.org/wiki/Luhn_algorithm";
         this.inputType = "string";
         this.outputType = "string";

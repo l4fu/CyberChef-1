@@ -22,7 +22,7 @@ class Unique extends Operation {
         this.name = "Unique";
         this.module = "Default";
         this.local="";
-        this.description = "Removes duplicate strings from the input.";
+        this.description = "从输入中删除重复字符串。Removes duplicate strings from the input.";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [

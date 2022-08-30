@@ -23,7 +23,7 @@ class FromUNIXTimestamp extends Operation {
         this.name = "From UNIX Timestamp";
         this.module = "Default";
         this.local="";
-        this.description = "Converts a UNIX timestamp to a datetime string.<br><br>e.g. <code>978346800</code> becomes <code>Mon 1 January 2001 11:00:00 UTC</code><br><br>A UNIX timestamp is a 32-bit value representing the number of seconds since January 1, 1970 UTC (the UNIX epoch).";
+        this.description = "将UNIX时间戳转换为日期时间字符串。<br><br>例如，<code>978346800</code>变为<code>2001年1月1日星期一11:00:00 UTC</code><br><br>UNIX时间戳记是一个32位值，表示自1970年1月31日UTC（UNIX纪元）以来的秒数。Converts a UNIX timestamp to a datetime string.<br><br>e.g. <code>978346800</code> becomes <code>Mon 1 January 2001 11:00:00 UTC</code><br><br>A UNIX timestamp is a 32-bit value representing the number of seconds since January 1, 1970 UTC (the UNIX epoch).";
         this.infoURL = "https://wikipedia.org/wiki/Unix_time";
         this.inputType = "number";
         this.outputType = "string";

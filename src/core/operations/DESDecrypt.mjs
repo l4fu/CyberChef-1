@@ -23,7 +23,7 @@ class DESDecrypt extends Operation {
         this.name = "DES Decrypt";
         this.module = "Ciphers";
         this.local="";
-        this.description = "DES is a previously dominant algorithm for encryption, and was published as an official U.S. Federal Information Processing Standard (FIPS). It is now considered to be insecure due to its small key size.<br><br><b>Key:</b> DES uses a key length of 8 bytes (64 bits).<br>Triple DES uses a key length of 24 bytes (192 bits).<br><br><b>IV:</b> The Initialization Vector should be 8 bytes long. If not entered, it will default to 8 null bytes.<br><br><b>Padding:</b> In CBC and ECB mode, PKCS#7 padding will be used as a default.";
+        this.description = "DES是以前占主导地位的加密算法，并作为美国联邦信息处理标准（FIPS）发布。由于其密钥大小较小，现在被认为是不安全的<br><br><b>密钥：</b>DES使用8字节（64位）的密钥长度<三重DES使用24字节（192位）的密钥长度<br><br><b>IV:</b>初始化向量应为8字节长。如果未输入，则默认为8个空字节<br><br><b>填充：</b>在CBC和ECB模式下，默认使用PKCS#7填充。DES is a previously dominant algorithm for encryption, and was published as an official U.S. Federal Information Processing Standard (FIPS). It is now considered to be insecure due to its small key size.<br><br><b>Key:</b> DES uses a key length of 8 bytes (64 bits).<br>Triple DES uses a key length of 24 bytes (192 bits).<br><br><b>IV:</b> The Initialization Vector should be 8 bytes long. If not entered, it will default to 8 null bytes.<br><br><b>Padding:</b> In CBC and ECB mode, PKCS#7 padding will be used as a default.";
         this.infoURL = "https://wikipedia.org/wiki/Data_Encryption_Standard";
         this.inputType = "string";
         this.outputType = "string";

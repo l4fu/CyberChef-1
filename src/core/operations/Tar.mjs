@@ -21,7 +21,7 @@ class Tar extends Operation {
         this.name = "Tar";
         this.module = "Compression";
         this.local="";
-        this.description = "Packs the input into a tarball.<br><br>No support for multiple files at this time.";
+        this.description = "将输入打包到tarball中<br><br>此时不支持多个文件。Packs the input into a tarball.<br><br>No support for multiple files at this time.";
         this.infoURL = "https://wikipedia.org/wiki/Tar_(computing)";
         this.inputType = "ArrayBuffer";
         this.outputType = "File";

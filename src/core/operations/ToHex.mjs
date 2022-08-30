@@ -22,7 +22,7 @@ class ToHex extends Operation {
         this.name = "To Hex";
         this.module = "Default";
         this.local="";
-        this.description = "Converts the input string to hexadecimal bytes separated by the specified delimiter.<br><br>e.g. The UTF-8 encoded string <code>Γειά σου</code> becomes <code>ce 93 ce b5 ce b9 ce ac 20 cf 83 ce bf cf 85 0a</code>";
+        this.description = "将输入字符串转换为由指定定界符分隔的十六进制字节。<br><br>例如，UTF-8编码字符串<code>ΓεConverts the input string to hexadecimal bytes separated by the specified delimiter.<br><br>e.g. The UTF-8 encoded string <code>Γειά σου</code> becomes <code>ce 93 ce b5 ce b9 ce ac 20 cf 83 ce bf cf 85 0a</code>";
         this.infoURL = "https://wikipedia.org/wiki/Hexadecimal";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";

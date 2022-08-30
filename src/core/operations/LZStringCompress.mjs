@@ -23,7 +23,7 @@ class LZStringCompress extends Operation {
         this.name = "LZString Compress";
         this.module = "Compression";
         this.local="";
-        this.description = "Compress the input with lz-string.";
+        this.description = "用lz字符串压缩输入。Compress the input with lz-string.";
         this.infoURL = "https://pieroxy.net/blog/pages/lz-string/index.html";
         this.inputType = "string";
         this.outputType = "string";

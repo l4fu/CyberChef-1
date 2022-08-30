@@ -22,7 +22,7 @@ class FromDecimal extends Operation {
         this.name = "From Decimal";
         this.module = "Default";
         this.local="";
-        this.description = "Converts the data from an ordinal integer array back into its raw form.<br><br>e.g. <code>72 101 108 108 111</code> becomes <code>Hello</code>";
+        this.description = "将序号整数数组中的数据转换回原始形式。<br><br>例如，<code>72 101 108 111</code>变为<code>Hello</code>Converts the data from an ordinal integer array back into its raw form.<br><br>e.g. <code>72 101 108 108 111</code> becomes <code>Hello</code>";
         this.inputType = "string";
         this.outputType = "byteArray";
         this.args = [

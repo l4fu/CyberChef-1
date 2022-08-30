@@ -24,7 +24,7 @@ class ParseIPv6Address extends Operation {
         this.name = "Parse IPv6 address";
         this.module = "Default";
         this.local="";
-        this.description = "Displays the longhand and shorthand versions of a valid IPv6 address.<br><br>Recognises all reserved ranges and parses encapsulated or tunnelled addresses including Teredo and 6to4.";
+        this.description = "显示有效IPv6地址的手写和简写版本<br><br>识别所有保留范围并解析封装或隧道地址，包括Teredo和6to4。Displays the longhand and shorthand versions of a valid IPv6 address.<br><br>Recognises all reserved ranges and parses encapsulated or tunnelled addresses including Teredo and 6to4.";
         this.infoURL = "https://wikipedia.org/wiki/IPv6_address";
         this.inputType = "string";
         this.outputType = "string";

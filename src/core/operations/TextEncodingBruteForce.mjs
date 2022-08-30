@@ -24,14 +24,8 @@ class TextEncodingBruteForce extends Operation {
         this.name = "Text Encoding Brute Force";
         this.module = "Encodings";
         this.local="";
-        this.description = [
-            "Enumerates all supported text encodings for the input, allowing you to quickly spot the correct one.",
-            "<br><br>",
-            "Supported charsets are:",
-            "<ul>",
-            Object.keys(IO_FORMAT).map(e => `<li>${e}</li>`).join("\n"),
-            "</ul>"
-        ].join("\n");
+        this.description = "枚举输入的所有支持的文本编码，允许您快速找到正确的文本编码。<br><br>Enumerates all supported text encodings for the input, allowing you to quickly spot the correct one.<br><br>"+
+            "Supported charsets are:<ul>"+Object.keys(IO_FORMAT).map(e => `<li>${e}</li>`).join("\n")+"</ul>";
         this.infoURL = "https://wikipedia.org/wiki/Character_encoding";
         this.inputType = "string";
         this.outputType = "json";

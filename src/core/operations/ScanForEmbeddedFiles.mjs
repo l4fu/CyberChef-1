@@ -23,7 +23,7 @@ class ScanForEmbeddedFiles extends Operation {
         this.name = "Scan for Embedded Files";
         this.module = "Default";
         this.local="";
-        this.description = "Scans the data for potential embedded files by looking for magic bytes at all offsets. This operation is prone to false positives.<br><br>WARNING: Files over about 100KB in size will take a VERY long time to process.";
+        this.description = "通过在所有偏移处查找魔法字节，扫描数据以查找潜在的嵌入式文件。此操作容易出现误报<br><br>警告：大小超过100KB的文件需要很长时间才能处理。Scans the data for potential embedded files by looking for magic bytes at all offsets. This operation is prone to false positives.<br><br>WARNING: Files over about 100KB in size will take a VERY long time to process.";
         this.infoURL = "https://wikipedia.org/wiki/List_of_file_signatures";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";

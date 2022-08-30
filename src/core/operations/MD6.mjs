@@ -22,7 +22,7 @@ class MD6 extends Operation {
         this.name = "MD6";
         this.module = "Crypto";
         this.local="";
-        this.description = "The MD6 (Message-Digest 6) algorithm is a cryptographic hash function. It uses a Merkle tree-like structure to allow for immense parallel computation of hashes for very long inputs.";
+        this.description = "MD6（消息摘要6）算法是一种加密散列函数。它使用类似Merkle树的结构，允许对非常长的输入进行大量的散列并行计算。The MD6 (Message-Digest 6) algorithm is a cryptographic hash function. It uses a Merkle tree-like structure to allow for immense parallel computation of hashes for very long inputs.";
         this.infoURL = "https://wikipedia.org/wiki/MD6";
         this.inputType = "string";
         this.outputType = "string";

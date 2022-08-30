@@ -20,7 +20,7 @@ class EscapeUnicodeCharacters extends Operation {
         this.name = "Escape Unicode Characters";
         this.module = "Default";
         this.local="";
-        this.description = "Converts characters to their unicode-escaped notations.<br><br>Supports the prefixes:<ul><li><code>\\u</code></li><li><code>%u</code></li><li><code>U+</code></li></ul>e.g. <code>σου</code> becomes <code>\\u03C3\\u03BF\\u03C5</code>";
+        this.description = "将字符转换为其unicode转义符号<br><br>支持前缀：<ul><li><code>\ \ u</code><li><code>%u</code></li><li><code><u><code>u+//code></code><li></ul>例如，<code>σο</code>变为<code>\ \ u03C3\ \ u03BF\ \ u03C5</code>Converts characters to their unicode-escaped notations.<br><br>Supports the prefixes:<ul><li><code>\\u</code></li><li><code>%u</code></li><li><code>U+</code></li></ul>e.g. <code>σου</code> becomes <code>\\u03C3\\u03BF\\u03C5</code>";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [

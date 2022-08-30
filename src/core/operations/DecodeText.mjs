@@ -22,14 +22,12 @@ class DecodeText extends Operation {
         this.name = "Decode text";
         this.module = "Encodings";
         this.local="";
-        this.description = [
-            "Decodes text from the chosen character encoding.",
-            "<br><br>",
-            "Supported charsets are:",
-            "<ul>",
-            Object.keys(IO_FORMAT).map(e => `<li>${e}</li>`).join("\n"),
-            "</ul>",
-        ].join("\n");
+        this.description = "从所选字符编码中解码文本。Decodes text from the chosen character encoding."+
+            "<br><br>"+
+            "Supported charsets are:"+
+            "<ul>"+
+            Object.keys(IO_FORMAT).map(e => `<li>${e}</li>`).join("\n")+
+            "</ul>";
         this.infoURL = "https://wikipedia.org/wiki/Character_encoding";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";

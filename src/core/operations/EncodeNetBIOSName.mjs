@@ -20,7 +20,7 @@ class EncodeNetBIOSName extends Operation {
         this.name = "Encode NetBIOS Name";
         this.module = "Default";
         this.local="";
-        this.description = "NetBIOS names as seen across the client interface to NetBIOS are exactly 16 bytes long. Within the NetBIOS-over-TCP protocols, a longer representation is used.<br><br>There are two levels of encoding. The first level maps a NetBIOS name into a domain system name.  The second level maps the domain system name into the 'compressed' representation required for interaction with the domain name system.<br><br>This operation carries out the first level of encoding. See RFC 1001 for full details.";
+        this.description = "在NetBIOS的客户端接口上看到的NetBIOS名称正好是16字节长。在TCP协议上的NetBIOS中，使用了更长的表示形式<br><br>有两种编码级别。第一级将NetBIOS名称映射到域系统名称。第二级将域名系统名称映射到与域名系统交互所需的“压缩”表示<br><br>此操作执行第一级编码。有关详细信息，请参见RFC 1001。NetBIOS names as seen across the client interface to NetBIOS are exactly 16 bytes long. Within the NetBIOS-over-TCP protocols, a longer representation is used.<br><br>There are two levels of encoding. The first level maps a NetBIOS name into a domain system name.  The second level maps the domain system name into the 'compressed' representation required for interaction with the domain name system.<br><br>This operation carries out the first level of encoding. See RFC 1001 for full details.";
         this.infoURL = "https://wikipedia.org/wiki/NetBIOS";
         this.inputType = "byteArray";
         this.outputType = "byteArray";

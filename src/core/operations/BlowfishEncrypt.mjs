@@ -24,7 +24,7 @@ class BlowfishEncrypt extends Operation {
         this.name = "Blowfish Encrypt";
         this.module = "Ciphers";
         this.local="";
-        this.description = "Blowfish is a symmetric-key block cipher designed in 1993 by Bruce Schneier and included in a large number of cipher suites and encryption products. AES now receives more attention.<br><br><b>IV:</b> The Initialization Vector should be 8 bytes long. If not entered, it will default to 8 null bytes.";
+        this.description = "Blowfish是一种对称密钥分组密码，由Bruce Schneier于1993年设计，并包含在大量密码套件和加密产品中。AES现在受到更多关注<br><br><b>IV:</b>初始化向量应为8字节长。如果未输入，则默认为8个空字节。Blowfish is a symmetric-key block cipher designed in 1993 by Bruce Schneier and included in a large number of cipher suites and encryption products. AES now receives more attention.<br><br><b>IV:</b> The Initialization Vector should be 8 bytes long. If not entered, it will default to 8 null bytes.";
         this.infoURL = "https://wikipedia.org/wiki/Blowfish_(cipher)";
         this.inputType = "string";
         this.outputType = "string";

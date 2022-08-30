@@ -26,7 +26,7 @@ class ViewBitPlane extends Operation {
         this.name = "View Bit Plane";
         this.module = "Image";
         this.local="";
-        this.description = "Extracts and displays a bit plane of any given image. These show only a single bit from each pixel, and can be used to hide messages in Steganography.";
+        this.description = "提取并显示任何给定图像的位平面。这些仅显示每个像素的一个位，可用于隐藏隐写术中的消息。Extracts and displays a bit plane of any given image. These show only a single bit from each pixel, and can be used to hide messages in Steganography.";
         this.infoURL = "https://wikipedia.org/wiki/Bit_plane";
         this.inputType = "ArrayBuffer";
         this.outputType = "ArrayBuffer";

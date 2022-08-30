@@ -21,7 +21,7 @@ class ROT13 extends Operation {
         this.name = "ROT13";
         this.module = "Default";
         this.local="";
-        this.description = "A simple caesar substitution cipher which rotates alphabet characters by the specified amount (default 13).";
+        this.description = "一种简单的凯撒替换密码，将字母表字符旋转指定数量（默认值13）。A simple caesar substitution cipher which rotates alphabet characters by the specified amount (default 13).";
         this.infoURL = "https://wikipedia.org/wiki/ROT13";
         this.inputType = "byteArray";
         this.outputType = "byteArray";

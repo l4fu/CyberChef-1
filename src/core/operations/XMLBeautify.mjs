@@ -21,7 +21,7 @@ class XMLBeautify extends Operation {
         this.name = "XML Beautify";
         this.module = "Code";
         this.local="";
-        this.description = "Indents and prettifies eXtensible Markup Language (XML) code.";
+        this.description = "缩进和修饰可扩展标记语言（XML）代码。Indents and prettifies eXtensible Markup Language (XML) code.";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [

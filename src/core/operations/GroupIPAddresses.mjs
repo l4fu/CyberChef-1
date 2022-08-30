@@ -24,7 +24,7 @@ class GroupIPAddresses extends Operation {
         this.name = "Group IP addresses";
         this.module = "Default";
         this.local="";
-        this.description = "Groups a list of IP addresses into subnets. Supports both IPv4 and IPv6 addresses.";
+        this.description = "将IP地址列表分组到子网中。支持IPv4和IPv6地址。Groups a list of IP addresses into subnets. Supports both IPv4 and IPv6 addresses.";
         this.infoURL = "https://wikipedia.org/wiki/Subnetwork";
         this.inputType = "string";
         this.outputType = "string";

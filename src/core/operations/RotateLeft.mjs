@@ -22,7 +22,7 @@ class RotateLeft extends Operation {
         this.name = "Rotate left";
         this.module = "Default";
         this.local="";
-        this.description = "Rotates each byte to the left by the number of bits specified, optionally carrying the excess bits over to the next byte. Currently only supports 8-bit values.";
+        this.description = "将每个字节向左旋转指定的位数，可选地将多余的位转移到下一个字节。目前仅支持8位值。Rotates each byte to the left by the number of bits specified, optionally carrying the excess bits over to the next byte. Currently only supports 8-bit values.";
         this.infoURL = "https://wikipedia.org/wiki/Bitwise_operation#Bit_shifts";
         this.inputType = "byteArray";
         this.outputType = "byteArray";

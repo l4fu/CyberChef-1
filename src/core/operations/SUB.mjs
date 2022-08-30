@@ -22,7 +22,7 @@ class SUB extends Operation {
         this.name = "SUB";
         this.module = "Default";
         this.local="";
-        this.description = "SUB the input with the given key (e.g. <code>fe023da5</code>), MOD 255";
+        this.description = "使用给定的键（例如，＜code＞fe023da5＜/code＞），MOD 255对输入进行细分SUB the input with the given key (e.g. <code>fe023da5</code>), MOD 255";
         this.infoURL = "https://wikipedia.org/wiki/Bitwise_operation#Bitwise_operators";
         this.inputType = "byteArray";
         this.outputType = "byteArray";

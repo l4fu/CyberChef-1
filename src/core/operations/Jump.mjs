@@ -22,7 +22,7 @@ class Jump extends Operation {
         this.flowControl = true;
         this.module = "Default";
         this.local="";
-        this.description = "Jump forwards or backwards to the specified Label";
+        this.description = "向前或向后跳转到指定的标签Jump forwards or backwards to the specified Label";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [

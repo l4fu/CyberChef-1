@@ -21,7 +21,7 @@ class SQLMinify extends Operation {
         this.name = "SQL Minify";
         this.module = "Code";
         this.local="";
-        this.description = "Compresses Structured Query Language (SQL) code.";
+        this.description = "压缩结构化查询语言（SQL）代码。Compresses Structured Query Language (SQL) code.";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [];

@@ -20,7 +20,7 @@ class PadLines extends Operation {
         this.name = "Pad lines";
         this.module = "Default";
         this.local="";
-        this.description = "Add the specified number of the specified character to the beginning or end of each line";
+        this.description = "将指定字符的指定编号添加到每行的开头或结尾Add the specified number of the specified character to the beginning or end of each line";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [

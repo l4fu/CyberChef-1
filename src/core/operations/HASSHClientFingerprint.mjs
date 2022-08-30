@@ -34,7 +34,7 @@ class HASSHClientFingerprint extends Operation {
         this.name = "HASSH Client Fingerprint";
         this.module = "Crypto";
         this.local="";
-        this.description = "Generates a HASSH fingerprint to help identify SSH clients based on hashing together values from the Client Key Exchange Init message.<br><br>Input: A hex stream of the SSH_MSG_KEXINIT packet application layer from Client to Server.";
+        this.description = "生成一个HASSH指纹，以帮助基于将客户端密钥交换初始化消息中的值散列在一起来识别SSH客户端<br><br>输入：从客户端到服务器的SSH_MSG_KEXINIT数据包应用层的十六进制流。Generates a HASSH fingerprint to help identify SSH clients based on hashing together values from the Client Key Exchange Init message.<br><br>Input: A hex stream of the SSH_MSG_KEXINIT packet application layer from Client to Server.";
         this.infoURL = "https://engineering.salesforce.com/open-sourcing-hassh-abed3ae5044c";
         this.inputType = "string";
         this.outputType = "string";

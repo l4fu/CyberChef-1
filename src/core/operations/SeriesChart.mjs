@@ -29,7 +29,7 @@ class SeriesChart extends Operation {
         this.name = "Series chart";
         this.module = "Charts";
         this.local="";
-        this.description = "A time series graph is a line graph of repeated measurements taken over regular time intervals.";
+        this.description = "时间序列图是在规则时间间隔内重复测量的线形图。A time series graph is a line graph of repeated measurements taken over regular time intervals.";
         this.inputType = "string";
         this.outputType = "html";
         this.args = [

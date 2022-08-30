@@ -22,7 +22,7 @@ class VarIntEncode extends Operation {
         this.name = "VarInt Encode";
         this.module = "Default";
         this.local="";
-        this.description = "Encodes a Vn integer as a VarInt. VarInt is an efficient way of encoding variable length integers and is commonly used with Protobuf.";
+        this.description = "将Vn整数编码为变量。VarInt是编码可变长度整数的一种有效方法，通常与Protobuf一起使用。Encodes a Vn integer as a VarInt. VarInt is an efficient way of encoding variable length integers and is commonly used with Protobuf.";
         this.infoURL = "https://developers.google.com/protocol-buffers/docs/encoding#varints";
         this.inputType = "number";
         this.outputType = "byteArray";

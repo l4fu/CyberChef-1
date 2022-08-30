@@ -21,7 +21,7 @@ class Split extends Operation {
         this.name = "Split";
         this.module = "Default";
         this.local="";
-        this.description = "Splits a string into sections around a given delimiter.";
+        this.description = "将字符串拆分为给定分隔符周围的部分。Splits a string into sections around a given delimiter.";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [

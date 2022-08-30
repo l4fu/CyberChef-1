@@ -25,18 +25,16 @@ class PGPDecryptAndVerify extends Operation {
         this.name = "PGP Decrypt and Verify";
         this.module = "PGP";
         this.local="";
-        this.description = [
-            "Input: the ASCII-armoured encrypted PGP message you want to verify.",
-            "<br><br>",
-            "Arguments: the ASCII-armoured PGP public key of the signer, ",
-            "the ASCII-armoured private key of the recipient (and the private key password if necessary).",
-            "<br><br>",
-            "This operation uses PGP to decrypt and verify an encrypted digital signature.",
-            "<br><br>",
-            "Pretty Good Privacy is an encryption standard (OpenPGP) used for encrypting, decrypting, and signing messages.",
-            "<br><br>",
-            "This function uses the Keybase implementation of PGP.",
-        ].join("\n");
+        this.description = "输入：要验证的ASCII铠装加密PGP消息。Input: the ASCII-armoured encrypted PGP message you want to verify."+
+            "<br><br>"+
+            "Arguments: the ASCII-armoured PGP public key of the signer, "+
+            "the ASCII-armoured private key of the recipient (and the private key password if necessary)."+
+            "<br><br>"+
+            "This operation uses PGP to decrypt and verify an encrypted digital signature."+
+            "<br><br>"+
+            "Pretty Good Privacy is an encryption standard (OpenPGP) used for encrypting, decrypting, and signing messages."+
+            "<br><br>"+
+            "This function uses the Keybase implementation of PGP.";
         this.infoURL = "https://wikipedia.org/wiki/Pretty_Good_Privacy";
         this.inputType = "string";
         this.outputType = "string";

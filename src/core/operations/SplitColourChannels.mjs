@@ -25,7 +25,7 @@ class SplitColourChannels extends Operation {
         this.name = "Split Colour Channels";
         this.module = "Image";
         this.local="";
-        this.description = "Splits the given image into its red, green and blue colour channels.";
+        this.description = "将给定图像拆分为红色、绿色和蓝色通道。Splits the given image into its red, green and blue colour channels.";
         this.infoURL = "https://wikipedia.org/wiki/Channel_(digital_image)";
         this.inputType = "ArrayBuffer";
         this.outputType = "List<File>";

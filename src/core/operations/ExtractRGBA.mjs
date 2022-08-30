@@ -26,7 +26,7 @@ class ExtractRGBA extends Operation {
         this.name = "Extract RGBA";
         this.module = "Image";
         this.local="";
-        this.description = "Extracts each pixel's RGBA value in an image. These are sometimes used in Steganography to hide text or data.";
+        this.description = "提取图像中每个像素的RGBA值。它们有时被用于隐写术中以隐藏文本或数据。Extracts each pixel's RGBA value in an image. These are sometimes used in Steganography to hide text or data.";
         this.infoURL = "https://wikipedia.org/wiki/RGBA_color_space";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";

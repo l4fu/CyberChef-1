@@ -22,7 +22,7 @@ class OR extends Operation {
         this.name = "OR";
         this.module = "Default";
         this.local="";
-        this.description = "OR the input with the given key.<br>e.g. <code>fe023da5</code>";
+        this.description = "或使用给定键的输入。<br>例如，<code>fe023da5</code>OR the input with the given key.<br>e.g. <code>fe023da5</code>";
         this.infoURL = "https://wikipedia.org/wiki/Bitwise_operation#OR";
         this.inputType = "ArrayBuffer";
         this.outputType = "byteArray";

@@ -23,7 +23,7 @@ class JavaScriptBeautify extends Operation {
         this.name = "JavaScript Beautify";
         this.module = "Code";
         this.local="";
-        this.description = "Parses and pretty prints valid JavaScript code. Also works with JavaScript Object Notation (JSON).";
+        this.description = "解析并漂亮地打印有效的JavaScript代码。还可以与JavaScript对象表示法（JSON）一起使用。Parses and pretty prints valid JavaScript code. Also works with JavaScript Object Notation (JSON).";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [

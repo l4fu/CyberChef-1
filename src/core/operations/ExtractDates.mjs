@@ -21,7 +21,7 @@ class ExtractDates extends Operation {
         this.name = "Extract dates";
         this.module = "Regex";
         this.local="";
-        this.description = "Extracts dates in the following formats<ul><li><code>yyyy-mm-dd</code></li><li><code>dd/mm/yyyy</code></li><li><code>mm/dd/yyyy</code></li></ul>Dividers can be any of /, -, . or space";
+        this.description = "以以下格式提取日期：＜ul＞＜li＞＜code＞yyy-mm-dd＜/code＞＜/li＞＜li＜＜code＞dd/mm/yyyy＜/code＞</li＞<li＞mm/dd/yyy</code＞。＜/li＞除法器可以是/、-、.或空格中的任何一种Extracts dates in the following formats<ul><li><code>yyyy-mm-dd</code></li><li><code>dd/mm/yyyy</code></li><li><code>mm/dd/yyyy</code></li></ul>Dividers can be any of /, -, . or space";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [

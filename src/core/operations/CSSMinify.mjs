@@ -21,7 +21,7 @@ class CSSMinify extends Operation {
         this.name = "CSS Minify";
         this.module = "Code";
         this.local="";
-        this.description = "Compresses Cascading Style Sheets (CSS) code.";
+        this.description = "压缩级联样式表（CSS）代码。Compresses Cascading Style Sheets (CSS) code.";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [

@@ -21,7 +21,7 @@ class Return extends Operation {
         this.flowControl = true;
         this.module = "Default";
         this.local="";
-        this.description = "End execution of operations at this point in the recipe.";
+        this.description = "在配方中的这一点结束操作的执行。End execution of operations at this point in the recipe.";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [];

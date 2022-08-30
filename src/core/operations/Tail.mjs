@@ -22,7 +22,7 @@ class Tail extends Operation {
         this.name = "Tail";
         this.module = "Default";
         this.local="";
-        this.description = "Like the UNIX tail utility.<br>Gets the last n lines.<br>Optionally you can select all lines after line n by entering a negative value for n.<br>The delimiter can be changed so that instead of lines, fields (i.e. commas) are selected instead.";
+        this.description = "如UNIX尾部实用程序<br>获取最后n行<br>可选地，您可以通过为n输入负值来选择第n行之后的所有行。<br>可以更改分隔符，以便选择字段（即逗号），而不是行。Like the UNIX tail utility.<br>Gets the last n lines.<br>Optionally you can select all lines after line n by entering a negative value for n.<br>The delimiter can be changed so that instead of lines, fields (i.e. commas) are selected instead.";
         this.infoURL = "https://wikipedia.org/wiki/Tail_(Unix)";
         this.inputType = "string";
         this.outputType = "string";

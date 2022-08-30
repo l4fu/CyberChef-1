@@ -22,7 +22,7 @@ class AND extends Operation {
         this.name = "AND";
         this.module = "Default";
         this.local="";
-        this.description = "AND the input with the given key.<br>e.g. <code>fe023da5</code>";
+        this.description = "以及具有给定键的输入。＜br＞例如＜code＞fe023da5</code＞以及具有给定按键的输入。＜br＞例如＜code＞FE025DA5</code>AND the input with the given key.<br>e.g. <code>fe023da5</code> AND the input with the given key.<br>e.g. <code>fe023da5</code>";
         this.infoURL = "https://wikipedia.org/wiki/Bitwise_operation#AND";
         this.inputType = "byteArray";
         this.outputType = "byteArray";

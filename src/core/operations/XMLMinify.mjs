@@ -21,7 +21,7 @@ class XMLMinify extends Operation {
         this.name = "XML Minify";
         this.module = "Code";
         this.local="";
-        this.description = "Compresses eXtensible Markup Language (XML) code.";
+        this.description = "压缩可扩展标记语言（XML）代码。Compresses eXtensible Markup Language (XML) code.";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [

@@ -22,11 +22,7 @@ class RemoveEXIF extends Operation {
         this.name = "Remove EXIF";
         this.module = "Image";
         this.local="";
-        this.description = [
-            "Removes EXIF data from a JPEG image.",
-            "<br><br>",
-            "EXIF data embedded in photos usually contains information about the image file itself as well as the device used to create it.",
-        ].join("\n");
+        this.description = "从JPEG图像中删除EXIF数据<br><br>嵌入在照片中的EXIF数据通常包含图像文件本身以及用于创建图像文件的设备的信息。Removes EXIF data from a JPEG image.<br><br>EXIF data embedded in photos usually contains information about the image file itself as well as the device used to create it.";
         this.infoURL = "https://wikipedia.org/wiki/Exif";
         this.inputType = "ArrayBuffer";
         this.outputType = "byteArray";

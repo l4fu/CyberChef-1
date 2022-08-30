@@ -22,14 +22,7 @@ class EncodeText extends Operation {
         this.name = "Encode text";
         this.module = "Encodings";
         this.local="";
-        this.description = [
-            "Encodes text into the chosen character encoding.",
-            "<br><br>",
-            "Supported charsets are:",
-            "<ul>",
-            Object.keys(IO_FORMAT).map(e => `<li>${e}</li>`).join("\n"),
-            "</ul>",
-        ].join("\n");
+        this.description = "将文本编码为所选字符编码<br><br>支持的字符集为：<ul>Encodes text into the chosen character encoding.<br><br>Supported charsets are:<ul>"+ Object.keys(IO_FORMAT).map(e => `<li>${e}</li>`).join("\n")+"</ul>";
         this.infoURL = "https://wikipedia.org/wiki/Character_encoding";
         this.inputType = "string";
         this.outputType = "ArrayBuffer";

@@ -20,7 +20,7 @@ class FormatMACAddresses extends Operation {
         this.name = "Format MAC addresses";
         this.module = "Default";
         this.local="";
-        this.description = "Displays given MAC addresses in multiple different formats.<br><br>Expects addresses in a list separated by newlines, spaces or commas.<br><br>WARNING: There are no validity checks.";
+        this.description = "以多种不同格式显示给定的MAC地址<br><br>需要列表中的地址以换行符、空格或逗号分隔<br><br>警告：没有有效性检查。Displays given MAC addresses in multiple different formats.<br><br>Expects addresses in a list separated by newlines, spaces or commas.<br><br>WARNING: There are no validity checks.";
         this.infoURL = "https://wikipedia.org/wiki/MAC_address#Notational_conventions";
         this.inputType = "string";
         this.outputType = "string";

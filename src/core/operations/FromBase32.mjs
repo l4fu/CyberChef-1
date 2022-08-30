@@ -21,7 +21,7 @@ class FromBase32 extends Operation {
         this.name = "From Base32";
         this.module = "Default";
         this.local="";
-        this.description = "Base32 is a notation for encoding arbitrary byte data using a restricted set of symbols that can be conveniently used by humans and processed by computers. It uses a smaller set of characters than Base64, usually the uppercase alphabet and the numbers 2 to 7.";
+        this.description = "Base32是一种使用有限的符号集对任意字节数据进行编码的符号，可以方便地由人类使用并由计算机处理。它使用的字符集比Base64小，通常是大写字母和数字2到7。Base32 is a notation for encoding arbitrary byte data using a restricted set of symbols that can be conveniently used by humans and processed by computers. It uses a smaller set of characters than Base64, usually the uppercase alphabet and the numbers 2 to 7.";
         this.infoURL = "https://wikipedia.org/wiki/Base32";
         this.inputType = "string";
         this.outputType = "byteArray";

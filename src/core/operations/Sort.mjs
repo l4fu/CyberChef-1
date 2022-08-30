@@ -23,7 +23,7 @@ class Sort extends Operation {
         this.name = "Sort";
         this.module = "Default";
         this.local="";
-        this.description = "Alphabetically sorts strings separated by the specified delimiter.<br><br>The IP address option supports IPv4 only.";
+        this.description = "按字母顺序排列由指定分隔符分隔的字符串<br><br>IP地址选项仅支持IPv4。Alphabetically sorts strings separated by the specified delimiter.<br><br>The IP address option supports IPv4 only.";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [

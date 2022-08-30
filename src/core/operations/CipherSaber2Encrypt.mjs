@@ -23,7 +23,7 @@ class CipherSaber2Encrypt extends Operation {
         this.name = "CipherSaber2 Encrypt";
         this.module = "Crypto";
         this.local="";
-        this.description = "CipherSaber is a simple symmetric encryption protocol based on the RC4 stream cipher. It gives reasonably strong protection of message confidentiality, yet it's designed to be simple enough that even novice programmers can memorize the algorithm and implement it from scratch.";
+        this.description = "CipherSaber是基于RC4流密码的简单对称加密协议。它对消息保密性提供了相当强的保护，但它设计得足够简单，即使是新手程序员也可以记住算法并从头开始实现。CipherSaber is a simple symmetric encryption protocol based on the RC4 stream cipher. It gives reasonably strong protection of message confidentiality, yet it's designed to be simple enough that even novice programmers can memorize the algorithm and implement it from scratch.";
         this.infoURL = "https://wikipedia.org/wiki/CipherSaber";
         this.inputType = "ArrayBuffer";
         this.outputType = "ArrayBuffer";

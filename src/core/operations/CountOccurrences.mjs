@@ -21,7 +21,7 @@ class CountOccurrences extends Operation {
         this.name = "Count occurrences";
         this.module = "Default";
         this.local="";
-        this.description = "Counts the number of times the provided string occurs in the input.";
+        this.description = "统计所提供字符串在输入中出现的次数。Counts the number of times the provided string occurs in the input.";
         this.inputType = "string";
         this.outputType = "number";
         this.args = [

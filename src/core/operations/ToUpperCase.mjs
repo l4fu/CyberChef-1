@@ -21,7 +21,7 @@ class ToUpperCase extends Operation {
         this.name = "To Upper case";
         this.module = "Default";
         this.local="";
-        this.description = "Converts the input string to upper case, optionally limiting scope to only the first character in each word, sentence or paragraph.";
+        this.description = "将输入字符串转换为大写，可选地将范围限制为每个单词、句子或段落中的第一个字符。Converts the input string to upper case, optionally limiting scope to only the first character in each word, sentence or paragraph.";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [

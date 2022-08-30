@@ -28,7 +28,7 @@ class GeneratePGPKeyPair extends Operation {
         this.name = "Generate PGP Key Pair";
         this.module = "PGP";
         this.local="";
-        this.description = `Generates a new public/private PGP key pair. Supports RSA and Eliptic Curve (EC) keys.<br><br>${cryptNotice}`;
+        this.description = "生成新的公共/私有PGP密钥对。支持RSA和椭圆曲线（EC）密钥。<br><br>${cryptNotice}Generates a new public/private PGP key pair. Supports RSA and Eliptic Curve (EC) keys.<br><br>${cryptNotice}";
         this.infoURL = "https://wikipedia.org/wiki/Pretty_Good_Privacy";
         this.inputType = "string";
         this.outputType = "string";
@@ -72,7 +72,7 @@ class GeneratePGPKeyPair extends Operation {
         keySize = parseInt(keySize, 10);
 
         if (name) userIdentifier += name;
-        if (email) userIdentifier += ` <${email}>`;
+        if (email) userIdentifier += " <${email}>";
 
         let flags = kbpgp.const.openpgp.certify_keys;
         flags |= kbpgp.const.openpgp.sign_data;
@@ -113,7 +113,7 @@ class GeneratePGPKeyPair extends Operation {
                 const publicKey = await promisify(signedKey.export_pgp_public.bind(signedKey))({});
                 resolve(privateKey + "\n" + publicKey.trim());
             } catch (err) {
-                reject(`Error whilst generating key pair: ${err}`);
+                reject("Error whilst generating key pair: ${err}");
             }
         });
     }

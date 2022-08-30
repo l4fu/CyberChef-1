@@ -21,7 +21,7 @@ class ToTable extends Operation {
         this.name = "To Table";
         this.module = "Default";
         this.local="";
-        this.description = "Data can be split on different characters and rendered as an HTML or ASCII table with an optional header row.<br><br>Supports the CSV (Comma Separated Values) file format by default. Change the cell delimiter argument to <code>\\t</code> to support TSV (Tab Separated Values) or <code>|</code> for PSV (Pipe Separated Values).<br><br>You can enter as many delimiters as you like. Each character will be treat as a separate possible delimiter.";
+        this.description = "数据可以按不同字符拆分，并呈现为HTML或ASCII表，其中包含可选的标题行<br><br>默认情况下支持CSV（逗号分隔值）文件格式。将单元格分隔符参数更改为<code>\ \ t</code>，以支持TSV（制表符分隔值），或将<code>|</code>更改为PSV（管道分隔值）<br><br>您可以输入任意数量的分隔符。每个字符将被视为单独的可能分隔符。Data can be split on different characters and rendered as an HTML or ASCII table with an optional header row.<br><br>Supports the CSV (Comma Separated Values) file format by default. Change the cell delimiter argument to <code>\\t</code> to support TSV (Tab Separated Values) or <code>|</code> for PSV (Pipe Separated Values).<br><br>You can enter as many delimiters as you like. Each character will be treat as a separate possible delimiter.";
         this.infoURL = "https://wikipedia.org/wiki/Comma-separated_values";
         this.inputType = "string";
         this.outputType = "html";

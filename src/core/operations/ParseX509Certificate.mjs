@@ -25,7 +25,7 @@ class ParseX509Certificate extends Operation {
         this.name = "Parse X.509 certificate";
         this.module = "PublicKey";
         this.local="";
-        this.description = "X.509 is an ITU-T standard for a public key infrastructure (PKI) and Privilege Management Infrastructure (PMI). It is commonly involved with SSL/TLS security.<br><br>This operation displays the contents of a certificate in a human readable format, similar to the openssl command line tool.<br><br>Tags: X509, server hello, handshake";
+        this.description = "十、 509是用于公钥基础设施（PKI）和特权管理基础设施（PMI）的ITU-T标准。它通常涉及SSL/TLS安全<br><br>此操作以人类可读的格式显示证书的内容，类似于openssl命令行工具<br><br>标签：X509、服务器你好、握手X.509 is an ITU-T standard for a public key infrastructure (PKI) and Privilege Management Infrastructure (PMI). It is commonly involved with SSL/TLS security.<br><br>This operation displays the contents of a certificate in a human readable format, similar to the openssl command line tool.<br><br>Tags: X509, server hello, handshake";
         this.infoURL = "https://wikipedia.org/wiki/X.509";
         this.inputType = "string";
         this.outputType = "string";

@@ -20,7 +20,7 @@ class ChiSquare extends Operation {
         this.name = "Chi Square";
         this.module = "Default";
         this.local="";
-        this.description = "Calculates the Chi Square distribution of values.";
+        this.description = "计算值的卡方分布。Calculates the Chi Square distribution of values.";
         this.infoURL = "https://wikipedia.org/wiki/Chi-squared_distribution";
         this.inputType = "ArrayBuffer";
         this.outputType = "number";

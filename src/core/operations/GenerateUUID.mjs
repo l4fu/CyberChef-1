@@ -21,7 +21,7 @@ class GenerateUUID extends Operation {
         this.name = "Generate UUID";
         this.module = "Crypto";
         this.local="";
-        this.description = "Generates an RFC 4122 version 4 compliant Universally Unique Identifier (UUID), also known as a Globally Unique Identifier (GUID).<br><br>A version 4 UUID relies on random numbers, in this case generated using <code>window.crypto</code> if available and falling back to <code>Math.random</code> if not.";
+        this.description = "生成符合RFC 4122版本4的通用唯一标识符（UUID），也称为全局唯一标识符（GUID）<br><br>版本4的UUID依赖于随机数，在本例中使用＜code＞窗口生成。加密</code>如果可用，并返回到＜code＞数学。如果不是，则为随机</code>。Generates an RFC 4122 version 4 compliant Universally Unique Identifier (UUID), also known as a Globally Unique Identifier (GUID).<br><br>A version 4 UUID relies on random numbers, in this case generated using <code>window.crypto</code> if available and falling back to <code>Math.random</code> if not.";
         this.infoURL = "https://wikipedia.org/wiki/Universally_unique_identifier";
         this.inputType = "string";
         this.outputType = "string";

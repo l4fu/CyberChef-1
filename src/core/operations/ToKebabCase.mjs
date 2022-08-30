@@ -22,7 +22,7 @@ class ToKebabCase extends Operation {
         this.name = "To Kebab case";
         this.module = "Code";
         this.local="";
-        this.description = "Converts the input string to kebab case.\n<br><br>\nKebab case is all lower case with dashes as word boundaries.\n<br><br>\ne.g. this-is-kebab-case\n<br><br>\n'Attempt to be context aware' will make the operation attempt to nicely transform variable and function names.";
+        this.description = "将输入字符串转换为串大小写。\ n<br><br>\ n kebab大小写都是小写，以破折号作为单词边界。\ n<br><br>\  n.g.这是kebab的大小写\ n<br><br>\ n“尝试上下文感知”将使操作尝试很好地转换变量和函数名。Converts the input string to kebab case.\n<br><br>\nKebab case is all lower case with dashes as word boundaries.\n<br><br>\ne.g. this-is-kebab-case\n<br><br>\n'Attempt to be context aware' will make the operation attempt to nicely transform variable and function names.";
         this.infoURL = "https://wikipedia.org/wiki/Kebab_case";
         this.inputType = "string";
         this.outputType = "string";

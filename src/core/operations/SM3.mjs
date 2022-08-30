@@ -23,7 +23,7 @@ class SM3 extends Operation {
         this.name = "SM3";
         this.module = "Crypto";
         this.local="";
-        this.description = "SM3 is a cryptographic hash function used in the Chinese National Standard. SM3 is mainly used in digital signatures, message authentication codes, and pseudorandom number generators. The message digest algorithm consists, by default, of 64 rounds and length of 256.";
+        this.description = "SM3是中国国家标准中使用的加密散列函数。SM3主要用于数字签名、消息认证码和伪随机数生成器。默认情况下，消息摘要算法由64轮组成，长度为256。SM3 is a cryptographic hash function used in the Chinese National Standard. SM3 is mainly used in digital signatures, message authentication codes, and pseudorandom number generators. The message digest algorithm consists, by default, of 64 rounds and length of 256.";
         this.infoURL = "https://wikipedia.org/wiki/SM3_(hash_function)";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";

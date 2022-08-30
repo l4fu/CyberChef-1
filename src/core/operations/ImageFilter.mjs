@@ -26,7 +26,7 @@ class ImageFilter extends Operation {
         this.name = "Image Filter";
         this.module = "Image";
         this.local="";
-        this.description = "Applies a greyscale or sepia filter to an image.";
+        this.description = "对图像应用灰度或深褐色过滤器。Applies a greyscale or sepia filter to an image.";
         this.infoURL = "";
         this.inputType = "ArrayBuffer";
         this.outputType = "ArrayBuffer";

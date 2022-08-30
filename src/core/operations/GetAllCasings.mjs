@@ -20,7 +20,7 @@ class GetAllCasings extends Operation {
         this.name = "Get All Casings";
         this.module = "Default";
         this.local="";
-        this.description = "Outputs all possible casing variations of a string.";
+        this.description = "输出管柱的所有可能套管变化。Outputs all possible casing variations of a string.";
         this.infoURL = "";
         this.inputType = "string";
         this.outputType = "string";

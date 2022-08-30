@@ -24,7 +24,7 @@ class PseudoRandomNumberGenerator extends Operation {
         this.name = "Pseudo-Random Number Generator";
         this.module = "Ciphers";
         this.local="";
-        this.description = "A cryptographically-secure pseudo-random number generator (PRNG).<br><br>This operation uses the browser's built-in <code>crypto.getRandomValues()</code> method if available. If this cannot be found, it falls back to a Fortuna-based PRNG algorithm.";
+        this.description = "密码安全伪随机数生成器（PRNG）<br><br>此操作使用浏览器的内置<code>密码。getRandomValues（）</code>方法（如果可用）。如果找不到，则返回到基于Fortuna的PRNG算法。A cryptographically-secure pseudo-random number generator (PRNG).<br><br>This operation uses the browser's built-in <code>crypto.getRandomValues()</code> method if available. If this cannot be found, it falls back to a Fortuna-based PRNG algorithm.";
         this.infoURL = "https://wikipedia.org/wiki/Pseudorandom_number_generator";
         this.inputType = "string";
         this.outputType = "string";

@@ -22,7 +22,7 @@ class RC4 extends Operation {
         this.name = "RC4";
         this.module = "Ciphers";
         this.local="";
-        this.description = "RC4 (also known as ARC4) is a widely-used stream cipher designed by Ron Rivest. It is used in popular protocols such as SSL and WEP. Although remarkable for its simplicity and speed, the algorithm's history doesn't inspire confidence in its security.";
+        this.description = "RC4（也称为ARC4）是Ron Rivest设计的一种广泛使用的流密码。它用于流行的协议，如SSL和WEP。尽管该算法以其简单性和速度著称，但其历史并没有激发人们对其安全性的信心。RC4 (also known as ARC4) is a widely-used stream cipher designed by Ron Rivest. It is used in popular protocols such as SSL and WEP. Although remarkable for its simplicity and speed, the algorithm's history doesn't inspire confidence in its security.";
         this.infoURL = "https://wikipedia.org/wiki/RC4";
         this.inputType = "string";
         this.outputType = "string";

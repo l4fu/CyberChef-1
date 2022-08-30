@@ -25,18 +25,16 @@ class PGPEncryptAndSign extends Operation {
         this.name = "PGP Encrypt and Sign";
         this.module = "PGP";
         this.local="";
-        this.description = [
-            "Input: the cleartext you want to sign.",
-            "<br><br>",
-            "Arguments: the ASCII-armoured private key of the signer (plus the private key password if necessary)",
-            "and the ASCII-armoured PGP public key of the recipient.",
-            "<br><br>",
-            "This operation uses PGP to produce an encrypted digital signature.",
-            "<br><br>",
-            "Pretty Good Privacy is an encryption standard (OpenPGP) used for encrypting, decrypting, and signing messages.",
-            "<br><br>",
-            "This function uses the Keybase implementation of PGP.",
-        ].join("\n");
+        this.description = "输入：要签名的明文。Input: the cleartext you want to sign."+
+            "<br><br>"+
+            "Arguments: the ASCII-armoured private key of the signer (plus the private key password if necessary)"+
+            "and the ASCII-armoured PGP public key of the recipient."+
+            "<br><br>"+
+            "This operation uses PGP to produce an encrypted digital signature."+
+            "<br><br>"+
+            "Pretty Good Privacy is an encryption standard (OpenPGP) used for encrypting, decrypting, and signing messages."+
+            "<br><br>"+
+            "This function uses the Keybase implementation of PGP.";
         this.infoURL = "https://wikipedia.org/wiki/Pretty_Good_Privacy";
         this.inputType = "string";
         this.outputType = "string";

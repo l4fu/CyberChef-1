@@ -22,7 +22,7 @@ class JWTDecode extends Operation {
         this.name = "JWT Decode";
         this.module = "Crypto";
         this.local="";
-        this.description = "Decodes a JSON Web Token <b>without</b> checking whether the provided secret / private key is valid. Use 'JWT Verify' to check if the signature is valid as well.";
+        this.description = "解码JSON Web令牌<b>而不检查提供的密钥/私钥是否有效。使用“JWT验证”检查签名是否有效。Decodes a JSON Web Token <b>without</b> checking whether the provided secret / private key is valid. Use 'JWT Verify' to check if the signature is valid as well.";
         this.infoURL = "https://wikipedia.org/wiki/JSON_Web_Token";
         this.inputType = "string";
         this.outputType = "JSON";

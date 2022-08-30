@@ -20,7 +20,7 @@ class CaesarBoxCipher extends Operation {
         this.name = "Caesar Box Cipher";
         this.module = "Ciphers";
         this.local="";
-        this.description = "Caesar Box is a transposition cipher used in the Roman Empire, in which letters of the message are written in rows in a square (or a rectangle) and then, read by column.";
+        this.description = "凯撒盒是罗马帝国使用的一种换位密码，其中消息的字母按行写入正方形（或矩形），然后按列读取。Caesar Box is a transposition cipher used in the Roman Empire, in which letters of the message are written in rows in a square (or a rectangle) and then, read by column.";
         this.infoURL = "https://www.dcode.fr/caesar-box-cipher";
         this.inputType = "string";
         this.outputType = "string";

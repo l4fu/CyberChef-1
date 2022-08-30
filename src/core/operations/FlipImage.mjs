@@ -26,7 +26,7 @@ class FlipImage extends Operation {
         this.name = "Flip Image";
         this.module = "Image";
         this.local="";
-        this.description = "Flips an image along its X or Y axis.";
+        this.description = "沿图像的X轴或Y轴翻转图像。Flips an image along its X or Y axis.";
         this.infoURL = "";
         this.inputType = "ArrayBuffer";
         this.outputType = "ArrayBuffer";

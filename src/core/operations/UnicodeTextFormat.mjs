@@ -21,7 +21,7 @@ class UnicodeTextFormat extends Operation {
         this.name = "Unicode Text Format";
         this.module = "Default";
         this.local="";
-        this.description = "Adds Unicode combining characters to change formatting of plaintext.";
+        this.description = "添加Unicode组合字符以更改明文格式。Adds Unicode combining characters to change formatting of plaintext.";
         this.infoURL = "https://wikipedia.org/wiki/Combining_character";
         this.inputType = "byteArray";
         this.outputType = "byteArray";

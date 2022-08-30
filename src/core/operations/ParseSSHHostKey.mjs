@@ -24,7 +24,7 @@ class ParseSSHHostKey extends Operation {
         this.name = "Parse SSH Host Key";
         this.module = "Default";
         this.local="";
-        this.description = "Parses a SSH host key and extracts fields from it.<br>The key type can be:<ul><li>ssh-rsa</li><li>ssh-dss</li><li>ecdsa-sha2</li></ul>The key format can be either Hex or Base64.";
+        this.description = "解析SSH主机密钥并从中提取字段<br>密钥类型可以是：<ul><li>ssh rsa</li><li>ssh dss</li>ecdsa-sha2</li></ul>密钥格式可以是十六进制或Base64。Parses a SSH host key and extracts fields from it.<br>The key type can be:<ul><li>ssh-rsa</li><li>ssh-dss</li><li>ecdsa-sha2</li></ul>The key format can be either Hex or Base64.";
         this.infoURL = "https://wikipedia.org/wiki/Secure_Shell";
         this.inputType = "string";
         this.outputType = "string";

@@ -26,7 +26,7 @@ class ExtractLSB extends Operation {
         this.name = "Extract LSB";
         this.module = "Image";
         this.local="";
-        this.description = "Extracts the Least Significant Bit data from each pixel in an image. This is a common way to hide data in Steganography.";
+        this.description = "从图像中的每个像素提取最低有效位数据。这是隐写术中隐藏数据的常用方法。Extracts the Least Significant Bit data from each pixel in an image. This is a common way to hide data in Steganography.";
         this.infoURL = "https://wikipedia.org/wiki/Bit_numbering#Least_significant_bit_in_digital_steganography";
         this.inputType = "ArrayBuffer";
         this.outputType = "byteArray";

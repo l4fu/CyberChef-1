@@ -23,7 +23,7 @@ class SwapEndianness extends Operation {
         this.name = "Swap endianness";
         this.module = "Default";
         this.local="";
-        this.description = "Switches the data from big-endian to little-endian or vice-versa. Data can be read in as hexadecimal or raw bytes. It will be returned in the same format as it is entered.";
+        this.description = "将数据从大端序切换到小端序，反之亦然。数据可以以十六进制或原始字节的形式读取。返回的格式与输入的格式相同。Switches the data from big-endian to little-endian or vice-versa. Data can be read in as hexadecimal or raw bytes. It will be returned in the same format as it is entered.";
         this.infoURL = "https://wikipedia.org/wiki/Endianness";
         this.inputType = "string";
         this.outputType = "string";

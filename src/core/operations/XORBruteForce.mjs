@@ -24,7 +24,7 @@ class XORBruteForce extends Operation {
         this.name = "XOR Brute Force";
         this.module = "Default";
         this.local="";
-        this.description = "Enumerate all possible XOR solutions. Current maximum key length is 2 due to browser performance.<br><br>Optionally enter a string that you expect to find in the plaintext to filter results (crib).";
+        this.description = "列举所有可能的异或解决方案。由于浏览器性能，当前最大密钥长度为2<br><br>可选地输入您希望在纯文本中找到的字符串以过滤结果（crib）。Enumerate all possible XOR solutions. Current maximum key length is 2 due to browser performance.<br><br>Optionally enter a string that you expect to find in the plaintext to filter results (crib).";
         this.infoURL = "https://wikipedia.org/wiki/Exclusive_or";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";

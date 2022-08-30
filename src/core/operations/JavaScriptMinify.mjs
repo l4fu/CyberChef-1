@@ -22,7 +22,7 @@ class JavaScriptMinify extends Operation {
         this.name = "JavaScript Minify";
         this.module = "Code";
         this.local="";
-        this.description = "Compresses JavaScript code.";
+        this.description = "压缩JavaScript代码。Compresses JavaScript code.";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [];

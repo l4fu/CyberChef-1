@@ -22,7 +22,7 @@ class FromHex extends Operation {
         this.name = "From Hex";
         this.module = "Default";
         this.local="";
-        this.description = "Converts a hexadecimal byte string back into its raw value.<br><br>e.g. <code>ce 93 ce b5 ce b9 ce ac 20 cf 83 ce bf cf 85 0a</code> becomes the UTF-8 encoded string <code>Γειά σου</code>";
+        this.description = "将十六进制字节字符串转换回其原始值。<br><br>例如，<code>ce 93 ce b5 ce b9 ce ac 20 cf 83 ce bf cf 85 0a</code>成为UTF-8编码字符串<code>εConverts a hexadecimal byte string back into its raw value.<br><br>e.g. <code>ce 93 ce b5 ce b9 ce ac 20 cf 83 ce bf cf 85 0a</code> becomes the UTF-8 encoded string <code>Γειά σου</code>";
         this.infoURL = "https://wikipedia.org/wiki/Hexadecimal";
         this.inputType = "string";
         this.outputType = "byteArray";

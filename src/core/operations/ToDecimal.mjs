@@ -23,7 +23,7 @@ class ToDecimal extends Operation {
         this.name = "To Decimal";
         this.module = "Default";
         this.local="";
-        this.description = "Converts the input data to an ordinal integer array.<br><br>e.g. <code>Hello</code> becomes <code>72 101 108 108 111</code>";
+        this.description = "将输入数据转换为序数整数数组。<br><br>例如，<code>Hello</code>变为<code>72 101 108 111</code>Converts the input data to an ordinal integer array.<br><br>e.g. <code>Hello</code> becomes <code>72 101 108 108 111</code>";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";
         this.args = [

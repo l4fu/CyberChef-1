@@ -22,7 +22,7 @@ class ExtractURLs extends Operation {
         this.name = "Extract URLs";
         this.module = "Regex";
         this.local="";
-        this.description = "Extracts Uniform Resource Locators (URLs) from the input. The protocol (http, ftp etc.) is required otherwise there will be far too many false positives.";
+        this.description = "从输入中提取统一资源定位器（URL）。需要协议（http、ftp等），否则会有太多误报。Extracts Uniform Resource Locators (URLs) from the input. The protocol (http, ftp etc.) is required otherwise there will be far too many false positives.";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [

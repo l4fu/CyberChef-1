@@ -22,7 +22,7 @@ class ShowOnMap extends Operation {
         this.name = "Show on map";
         this.module = "Hashing";
         this.local="";
-        this.description = "Displays co-ordinates on a slippy map.<br><br>Co-ordinates will be converted to decimal degrees before being shown on the map.<br><br>Supported formats:<ul><li>Degrees Minutes Seconds (DMS)</li><li>Degrees Decimal Minutes (DDM)</li><li>Decimal Degrees (DD)</li><li>Geohash</li><li>Military Grid Reference System (MGRS)</li><li>Ordnance Survey National Grid (OSNG)</li><li>Universal Transverse Mercator (UTM)</li></ul><br>This operation will not work offline.";
+        this.description = "在滑动地图上显示坐标<br><br>坐标在显示在地图上之前将转换为十进制度数<br><br>支持的格式：<ul><li>度数分秒（DMS）</li><li>十进制分度数（DDM）</li><li>十进制度数（DD）</li><li>Geohash</li>军用网格参考系统（MGRS）</li><li>国家地形测量局（OSNG）</李><li><li>Universal Transversal Mercator（UTM）</li></ul><br>此操作不会脱机工作。Displays co-ordinates on a slippy map.<br><br>Co-ordinates will be converted to decimal degrees before being shown on the map.<br><br>Supported formats:<ul><li>Degrees Minutes Seconds (DMS)</li><li>Degrees Decimal Minutes (DDM)</li><li>Decimal Degrees (DD)</li><li>Geohash</li><li>Military Grid Reference System (MGRS)</li><li>Ordnance Survey National Grid (OSNG)</li><li>Universal Transverse Mercator (UTM)</li></ul><br>This operation will not work offline.";
         this.infoURL = "https://foundation.wikimedia.org/wiki/Maps_Terms_of_Use";
         this.inputType = "string";
         this.outputType = "string";

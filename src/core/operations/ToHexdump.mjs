@@ -22,7 +22,7 @@ class ToHexdump extends Operation {
         this.name = "To Hexdump";
         this.module = "Default";
         this.local="";
-        this.description = "Creates a hexdump of the input data, displaying both the hexadecimal values of each byte and an ASCII representation alongside.<br><br>The 'UNIX format' argument defines which subset of printable characters are displayed in the preview column.";
+        this.description = "创建输入数据的十六进制转储，同时显示每个字节的十六进制值和ASCII表示<br><br>参数“UNIX格式”定义预览列中显示的可打印字符子集。Creates a hexdump of the input data, displaying both the hexadecimal values of each byte and an ASCII representation alongside.<br><br>The 'UNIX format' argument defines which subset of printable characters are displayed in the preview column.";
         this.infoURL = "https://wikipedia.org/wiki/Hex_dump";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";

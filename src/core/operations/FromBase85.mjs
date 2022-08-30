@@ -23,7 +23,7 @@ class FromBase85 extends Operation {
         this.name = "From Base85";
         this.module = "Default";
         this.local="";
-        this.description = "Base85 (also called Ascii85) is a notation for encoding arbitrary byte data. It is usually more efficient that Base64.<br><br>This operation decodes data from an ASCII string (with an alphabet of your choosing, presets included).<br><br>e.g. <code>BOu!rD]j7BEbo7</code> becomes <code>hello world</code><br><br>Base85 is commonly used in Adobe's PostScript and PDF file formats.";
+        this.description = "Base85（也称为ASCI85）是用于编码任意字节数据的符号。Base64通常更有效。<br><br>此操作从ASCII字符串（包含您选择的字母表和预设）中解码数据。<br>例如，<code>BOu！rD]j7BEbo7</code>成为＜code＞hello world</code><br><br>Base85通常用于Adobe的PostScript和PDF文件格式。Base85 (also called Ascii85) is a notation for encoding arbitrary byte data. It is usually more efficient that Base64.<br><br>This operation decodes data from an ASCII string (with an alphabet of your choosing, presets included).<br><br>e.g. <code>BOu!rD]j7BEbo7</code> becomes <code>hello world</code><br><br>Base85 is commonly used in Adobe's PostScript and PDF file formats.";
         this.infoURL = "https://wikipedia.org/wiki/Ascii85";
         this.inputType = "string";
         this.outputType = "byteArray";

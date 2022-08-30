@@ -20,7 +20,7 @@ class ROT8000 extends Operation {
         this.name = "ROT8000";
         this.module = "Default";
         this.local="";
-        this.description = "The simple Caesar-cypher encryption that replaces each Unicode character with the one 0x8000 places forward or back along the alphabet.";
+        this.description = "简单的凯撒密码加密将每个Unicode字符替换为0x8000，沿字母表向前或向后放置。The simple Caesar-cypher encryption that replaces each Unicode character with the one 0x8000 places forward or back along the alphabet.";
         this.infoURL = "https://rot8000.com/info";
         this.inputType = "string";
         this.outputType = "string";

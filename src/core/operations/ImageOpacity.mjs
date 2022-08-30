@@ -26,7 +26,7 @@ class ImageOpacity extends Operation {
         this.name = "Image Opacity";
         this.module = "Image";
         this.local="";
-        this.description = "Adjust the opacity of an image.";
+        this.description = "调整图像的不透明度。Adjust the opacity of an image.";
         this.infoURL = "";
         this.inputType = "ArrayBuffer";
         this.outputType = "ArrayBuffer";

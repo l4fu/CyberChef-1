@@ -22,7 +22,7 @@ class ExtractFilePaths extends Operation {
         this.name = "Extract file paths";
         this.module = "Regex";
         this.local="";
-        this.description = "Extracts anything that looks like a Windows or UNIX file path.<br><br>Note that if UNIX is selected, there will likely be a lot of false positives.";
+        this.description = "提取任何看起来像Windows或UNIX文件路径的内容<br><br>请注意，如果选择了UNIX，可能会出现大量误报。Extracts anything that looks like a Windows or UNIX file path.<br><br>Note that if UNIX is selected, there will likely be a lot of false positives.";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [

@@ -23,7 +23,7 @@ class ShowBase64Offsets extends Operation {
         this.name = "Show Base64 offsets";
         this.module = "Default";
         this.local="";
-        this.description = "When a string is within a block of data and the whole block is Base64'd, the string itself could be represented in Base64 in three distinct ways depending on its offset within the block.<br><br>This operation shows all possible offsets for a given string so that each possible encoding can be considered.";
+        this.description = "当一个字符串位于一个数据块内且整个数据块为Base64'd时，根据其在块内的偏移量，字符串本身可以用三种不同的方式在Base64中表示<br><br>此操作显示给定字符串的所有可能偏移，以便可以考虑每个可能的编码。When a string is within a block of data and the whole block is Base64'd, the string itself could be represented in Base64 in three distinct ways depending on its offset within the block.<br><br>This operation shows all possible offsets for a given string so that each possible encoding can be considered.";
         this.infoURL = "https://wikipedia.org/wiki/Base64#Output_padding";
         this.inputType = "byteArray";
         this.outputType = "html";

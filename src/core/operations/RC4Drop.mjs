@@ -22,7 +22,7 @@ class RC4Drop extends Operation {
         this.name = "RC4 Drop";
         this.module = "Ciphers";
         this.local="";
-        this.description = "It was discovered that the first few bytes of the RC4 keystream are strongly non-random and leak information about the key. We can defend against this attack by discarding the initial portion of the keystream. This modified algorithm is traditionally called RC4-drop.";
+        this.description = "人们发现，RC4密钥流的前几个字节是强非随机的，并且泄露了有关密钥的信息。我们可以通过丢弃密钥流的初始部分来抵御这种攻击。这种改进的算法传统上称为RC4 drop。It was discovered that the first few bytes of the RC4 keystream are strongly non-random and leak information about the key. We can defend against this attack by discarding the initial portion of the keystream. This modified algorithm is traditionally called RC4-drop.";
         this.infoURL = "https://wikipedia.org/wiki/RC4#Fluhrer,_Mantin_and_Shamir_attack";
         this.inputType = "string";
         this.outputType = "string";

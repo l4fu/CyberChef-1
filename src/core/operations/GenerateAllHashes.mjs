@@ -48,7 +48,7 @@ class GenerateAllHashes extends Operation {
         this.name = "Generate all hashes";
         this.module = "Crypto";
         this.local="";
-        this.description = "Generates all available hashes and checksums for the input.";
+        this.description = "为输入生成所有可用的哈希和校验和。Generates all available hashes and checksums for the input.";
         this.infoURL = "https://wikipedia.org/wiki/Comparison_of_cryptographic_hash_functions";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";

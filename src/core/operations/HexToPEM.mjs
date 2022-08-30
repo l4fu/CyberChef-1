@@ -21,7 +21,7 @@ class HexToPEM extends Operation {
         this.name = "Hex to PEM";
         this.module = "PublicKey";
         this.local="";
-        this.description = "Converts a hexadecimal DER (Distinguished Encoding Rules) string into PEM (Privacy Enhanced Mail) format.";
+        this.description = "将十六进制DER（区分编码规则）字符串转换为PEM（隐私增强邮件）格式。Converts a hexadecimal DER (Distinguished Encoding Rules) string into PEM (Privacy Enhanced Mail) format.";
         this.infoURL = "https://wikipedia.org/wiki/Privacy-Enhanced_Mail";
         this.inputType = "string";
         this.outputType = "string";

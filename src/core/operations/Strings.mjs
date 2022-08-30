@@ -23,7 +23,7 @@ class Strings extends Operation {
         this.name = "Strings";
         this.module = "Regex";
         this.local="";
-        this.description = "Extracts all strings from the input.";
+        this.description = "从输入中提取所有字符串。Extracts all strings from the input.";
         this.infoURL = "https://wikipedia.org/wiki/Strings_(Unix)";
         this.inputType = "string";
         this.outputType = "string";
