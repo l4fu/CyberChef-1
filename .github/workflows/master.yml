@@ -23,7 +23,7 @@ jobs:
         npm run setheapsize
 
     # - name: Lint
-    #   run: npx grunt lint
+    #   run: npx grunt lint 
 
     # - name: Unit Tests
     #   run: |
@@ -32,7 +32,7 @@ jobs:
 
     - name: Production Build
       if: success()
-      run: npx grunt prod
+      run: npx grunt prod --force 
 
     - name: Generate sitemap
       run: npx grunt exec:sitemap
