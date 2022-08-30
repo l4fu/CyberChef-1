@@ -23,7 +23,7 @@ class ParseIPRange extends Operation {
         this.name = "Parse IP range";
         this.module = "Default";
         this.local="";
-        this.description = "给定CIDR范围（例如，<code>10.0.0/24</code>）、连字符范围（例如：<code>0.0.1-10.0-1.0</code>）或IP和/或CIDR范围列表（以新行分隔），此操作提供网络信息并枚举该范围内的所有IP地址<br><br>支持IPv6，但不会枚举。Given a CIDR range (e.g. <code>10.0.0.0/24</code>), hyphenated range (e.g. <code>10.0.0.0 - 10.0.1.0</code>), or a list of IPs and/or CIDR ranges (separated by a new line), this operation provides network information and enumerates all IP addresses in the range.<br><br>IPv6 is supported but will not be enumerated.";
+        this.description = "给定CIDR范围（例如,<code>10.0.0/24</code>）、连字符范围（例如：<code>0.0.1-10.0-1.0</code>）或IP和/或CIDR范围列表（以新行分隔）,此操作提供网络信息并枚举该范围内的所有IP地址<br><br>支持IPv6,但不会枚举。Given a CIDR range (e.g. <code>10.0.0.0/24</code>), hyphenated range (e.g. <code>10.0.0.0 - 10.0.1.0</code>), or a list of IPs and/or CIDR ranges (separated by a new line), this operation provides network information and enumerates all IP addresses in the range.<br><br>IPv6 is supported but will not be enumerated.";
         this.infoURL = "https://wikipedia.org/wiki/Subnetwork";
         this.inputType = "string";
         this.outputType = "string";

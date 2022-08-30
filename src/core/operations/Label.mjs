@@ -21,7 +21,7 @@ class Label extends Operation {
         this.flowControl = true;
         this.module = "Default";
         this.local="";
-        this.description = "提供条件跳转和固定跳转的位置，以将执行重定向到。Provides a location for conditional and fixed jumps to redirect execution to.";
+        this.description = "提供条件跳转和固定跳转的位置,以将执行重定向到。Provides a location for conditional and fixed jumps to redirect execution to.";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [

@@ -56,7 +56,7 @@ class MultipleBombe extends Operation {
         this.name = "Multiple Bombe";
         this.module = "Bletchley";
         this.local="";
-        this.description = "模拟用来攻击谜的炸弹机。该版本执行多个Bombe运行，以处理未知的转子配置<br><br>在此处运行单次爆炸操作之前，您应该测试菜单。有关选择婴儿床的说明，请参阅Bombe操作说明<br><br>有关Enigma、Typex和Bombe操作的详细说明<a href='https://github.com/gchq/CyberChef/wiki/Enigma，-炸弹，-和Typex>可以在这里找到</a>。Emulation of the Bombe machine used to attack Enigma. This version carries out multiple Bombe runs to handle unknown rotor configurations.<br><br>You should test your menu on the single Bombe operation before running it here. See the description of the Bombe operation for instructions on choosing a crib.<br><br>More detailed descriptions of the Enigma, Typex and Bombe operations <a href='https://github.com/gchq/CyberChef/wiki/Enigma,-the-Bombe,-and-Typex'>can be found here</a>.";
+        this.description = "模拟用来攻击谜的炸弹机。该版本执行多个Bombe运行,以处理未知的转子配置<br><br>在此处运行单次爆炸操作之前,您应该测试菜单。有关选择婴儿床的说明,请参阅Bombe操作说明<br><br>有关Enigma、Typex和Bombe操作的详细说明<a href='https://github.com/gchq/CyberChef/wiki/Enigma,-炸弹,-和Typex>可以在这里找到</a>。Emulation of the Bombe machine used to attack Enigma. This version carries out multiple Bombe runs to handle unknown rotor configurations.<br><br>You should test your menu on the single Bombe operation before running it here. See the description of the Bombe operation for instructions on choosing a crib.<br><br>More detailed descriptions of the Enigma, Typex and Bombe operations <a href='https://github.com/gchq/CyberChef/wiki/Enigma,-the-Bombe,-and-Typex'>can be found here</a>.";
         this.infoURL = "https://wikipedia.org/wiki/Bombe";
         this.inputType = "string";
         this.outputType = "JSON";

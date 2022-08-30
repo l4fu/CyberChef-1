@@ -20,7 +20,7 @@ class CetaceanCipherDecode extends Operation {
         this.name = "Cetacean Cipher Decode";
         this.module = "Ciphers";
         this.local="";
-        this.description = "解码鲸目动物密码输入<br/><br/>例如，<code>eeeeeeeeee、eeeeeeEEeeeeeeEE</code>变为<code>hi</code>Decode Cetacean Cipher input. <br/><br/>e.g. <code>EEEEEEEEEeeEeEEEEEEEEEEEEeeEeEEe</code> becomes <code>hi</code>";
+        this.description = "解码鲸目动物密码输入<br/><br/>例如,<code>eeeeeeeeee、eeeeeeEEeeeeeeEE</code>变为<code>hi</code>Decode Cetacean Cipher input. <br/><br/>e.g. <code>EEEEEEEEEeeEeEEEEEEEEEEEEeeEeEEe</code> becomes <code>hi</code>";
         this.infoURL = "https://hitchhikers.fandom.com/wiki/Dolphins";
         this.inputType = "string";
         this.outputType = "string";

@@ -23,7 +23,7 @@ class Subsection extends Operation {
         this.flowControl = true;
         this.module = "Default";
         this.local="";
-        this.description = "使用正则表达式（regex）选择输入数据的一部分，并分别对每个匹配项运行所有后续操作<br><br>您最多可以使用一个捕获组，其中配方将仅在捕获组中的数据上运行。如果有多个捕获组，则只对第一个捕获组进行操作。<br><br>使用合并操作重置子段的效果。Select a part of the input data using a regular expression (regex), and run all subsequent operations on each match separately.<br><br>You can use up to one capture group, where the recipe will only be run on the data in the capture group. If there's more than one capture group, only the first one will be operated on.<br><br>Use the Merge operation to reset the effects of subsection.";
+        this.description = "使用正则表达式（regex）选择输入数据的一部分,并分别对每个匹配项运行所有后续操作<br><br>您最多可以使用一个捕获组,其中配方将仅在捕获组中的数据上运行。如果有多个捕获组,则只对第一个捕获组进行操作。<br><br>使用合并操作重置子段的效果。Select a part of the input data using a regular expression (regex), and run all subsequent operations on each match separately.<br><br>You can use up to one capture group, where the recipe will only be run on the data in the capture group. If there's more than one capture group, only the first one will be operated on.<br><br>Use the Merge operation to reset the effects of subsection.";
         this.infoURL = "";
         this.inputType = "string";
         this.outputType = "string";

@@ -22,7 +22,7 @@ class ExtractDomains extends Operation {
         this.name = "Extract domains";
         this.module = "Regex";
         this.local="";
-        this.description = "提取完全限定的域名<请注意，这将不包括路径。使用<strong>提取URL</strong>查找整个URL。Extracts fully qualified domain names.<br>Note that this will not include paths. Use <strong>Extract URLs</strong> to find entire URLs.";
+        this.description = "提取完全限定的域名<请注意,这将不包括路径。使用<strong>提取URL</strong>查找整个URL。Extracts fully qualified domain names.<br>Note that this will not include paths. Use <strong>Extract URLs</strong> to find entire URLs.";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [

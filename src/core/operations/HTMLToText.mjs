@@ -21,7 +21,7 @@ class HTMLToText extends Operation {
         this.name = "HTML To Text";
         this.module = "Default";
         this.local="";
-        this.description = "将操作的HTML输出转换为可读字符串，而不是在DOM中呈现。Converts an HTML output from an operation to a readable string instead of being rendered in the DOM.";
+        this.description = "将操作的HTML输出转换为可读字符串,而不是在DOM中呈现。Converts an HTML output from an operation to a readable string instead of being rendered in the DOM.";
         this.infoURL = "";
         this.inputType = "html";
         this.outputType = "string";

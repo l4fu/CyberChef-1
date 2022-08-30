@@ -20,7 +20,7 @@ class RemoveWhitespace extends Operation {
         this.name = "Remove whitespace";
         this.module = "Default";
         this.local="";
-        this.description = "可选地，从输入数据中删除所有空格、回车、换行符、制表符和换行符<br><br>此操作还支持删除有时用于表示ASCII输出中不可打印字节的句号。Optionally removes all spaces, carriage returns, line feeds, tabs and form feeds from the input data.<br><br>This operation also supports the removal of full stops which are sometimes used to represent non-printable bytes in ASCII output.";
+        this.description = "可选地,从输入数据中删除所有空格、回车、换行符、制表符和换行符<br><br>此操作还支持删除有时用于表示ASCII输出中不可打印字节的句号。Optionally removes all spaces, carriage returns, line feeds, tabs and form feeds from the input data.<br><br>This operation also supports the removal of full stops which are sometimes used to represent non-printable bytes in ASCII output.";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [

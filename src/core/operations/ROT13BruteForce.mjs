@@ -20,7 +20,7 @@ class ROT13BruteForce extends Operation {
         this.name = "ROT13 Brute Force";
         this.module = "Default";
         this.local="";
-        this.description = "尝试ROT13的所有有意义的数量。<br><br>或者，您可以输入已知的明文（crib）来过滤结果。Try all meaningful amounts for ROT13.<br><br>Optionally you can enter your known plaintext (crib) to filter the result.";
+        this.description = "尝试ROT13的所有有意义的数量。<br><br>或者,您可以输入已知的明文（crib）来过滤结果。Try all meaningful amounts for ROT13.<br><br>Optionally you can enter your known plaintext (crib) to filter the result.";
         this.infoURL = "https://wikipedia.org/wiki/ROT13";
         this.inputType = "byteArray";
         this.outputType = "string";

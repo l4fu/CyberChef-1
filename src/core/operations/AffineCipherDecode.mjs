@@ -22,7 +22,7 @@ class AffineCipherDecode extends Operation {
         this.name = "Affine Cipher Decode";
         this.module = "Ciphers";
         this.local="";
-        this.description = "仿射密码是一种单字母替换密码。为了解密，字母表中的每个字母被映射到其数字等价物，由数学函数解密，并转换回字母。The Affine cipher is a type of monoalphabetic substitution cipher. To decrypt, each letter in an alphabet is mapped to its numeric equivalent, decrypted by a mathematical function, and converted back to a letter.";
+        this.description = "仿射密码是一种单字母替换密码。为了解密,字母表中的每个字母被映射到其数字等价物,由数学函数解密,并转换回字母。The Affine cipher is a type of monoalphabetic substitution cipher. To decrypt, each letter in an alphabet is mapped to its numeric equivalent, decrypted by a mathematical function, and converted back to a letter.";
         this.infoURL = "https://wikipedia.org/wiki/Affine_cipher";
         this.inputType = "string";
         this.outputType = "string";

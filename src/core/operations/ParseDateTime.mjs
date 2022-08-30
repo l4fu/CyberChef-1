@@ -22,7 +22,7 @@ class ParseDateTime extends Operation {
         this.name = "Parse DateTime";
         this.module = "Default";
         this.local="";
-        this.description = "分析指定格式的日期时间字符串，并使用以下信息在您选择的时区中显示它：＜ul>＜li＞日期＜/li>＜li＞时间＜/li>＜li＞时段（AM/PM）＜/li>＜li>时区＜/li>＜＜li＞UTC偏移量＜/li>＜li＞夏时制＜/li>＜/li>闰年＜/ri>＜li＞本月的天数＜/li>＜li＞一年的天数</li>周数＜/li>＜li><li>季度＜/如果需要，请提供示例。Parses a DateTime string in your specified format and displays it in whichever timezone you choose with the following information:<ul><li>Date</li><li>Time</li><li>Period (AM/PM)</li><li>Timezone</li><li>UTC offset</li><li>Daylight Saving Time</li><li>Leap year</li><li>Days in this month</li><li>Day of year</li><li>Week number</li><li>Quarter</li></ul>Run with no input to see format string examples if required.";
+        this.description = "分析指定格式的日期时间字符串,并使用以下信息在您选择的时区中显示它：＜ul>＜li＞日期＜/li>＜li＞时间＜/li>＜li＞时段（AM/PM）＜/li>＜li>时区＜/li>＜＜li＞UTC偏移量＜/li>＜li＞夏时制＜/li>＜/li>闰年＜/ri>＜li＞本月的天数＜/li>＜li＞一年的天数</li>周数＜/li>＜li><li>季度＜/如果需要,请提供示例。Parses a DateTime string in your specified format and displays it in whichever timezone you choose with the following information:<ul><li>Date</li><li>Time</li><li>Period (AM/PM)</li><li>Timezone</li><li>UTC offset</li><li>Daylight Saving Time</li><li>Leap year</li><li>Days in this month</li><li>Day of year</li><li>Week number</li><li>Quarter</li></ul>Run with no input to see format string examples if required.";
         this.infoURL = "https://momentjs.com/docs/#/parsing/string-format/";
         this.inputType = "string";
         this.outputType = "html";

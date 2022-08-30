@@ -25,7 +25,7 @@ class ConvertImageFormat extends Operation {
         this.name = "Convert Image Format";
         this.module = "Image";
         this.local="";
-        this.description = "在不同格式之间转换图像。支持的格式：<br><ul><li>联合图像专家组（JPEG）</li><li>Portable Network Graphics（PNG）</li><li>位图（BMP）</li><li>标记图像文件格式（TIFF）</li><ul><br>注意：支持GIF文件输入，但不能输出。Converts an image between different formats. Supported formats:<br><ul><li>Joint Photographic Experts Group (JPEG)</li><li>Portable Network Graphics (PNG)</li><li>Bitmap (BMP)</li><li>Tagged Image File Format (TIFF)</li></ul><br>Note: GIF files are supported for input, but cannot be outputted.";
+        this.description = "在不同格式之间转换图像。支持的格式：<br><ul><li>联合图像专家组（JPEG）</li><li>Portable Network Graphics（PNG）</li><li>位图（BMP）</li><li>标记图像文件格式（TIFF）</li><ul><br>注意：支持GIF文件输入,但不能输出。Converts an image between different formats. Supported formats:<br><ul><li>Joint Photographic Experts Group (JPEG)</li><li>Portable Network Graphics (PNG)</li><li>Bitmap (BMP)</li><li>Tagged Image File Format (TIFF)</li></ul><br>Note: GIF files are supported for input, but cannot be outputted.";
         this.infoURL = "https://wikipedia.org/wiki/Image_file_formats";
         this.inputType = "ArrayBuffer";
         this.outputType = "ArrayBuffer";

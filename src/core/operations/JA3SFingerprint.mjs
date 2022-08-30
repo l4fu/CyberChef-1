@@ -31,7 +31,7 @@ class JA3SFingerprint extends Operation {
         this.name = "JA3S Fingerprint";
         this.module = "Crypto";
         this.local="";
-        this.description = "生成JA3S指纹，以帮助基于来自服务器Hello的散列值识别TLS服务器<br><br>输入：TLS服务器Hello记录应用层的十六进制流。Generates a JA3S fingerprint to help identify TLS servers based on hashing together values from the Server Hello.<br><br>Input: A hex stream of the TLS Server Hello record application layer.";
+        this.description = "生成JA3S指纹,以帮助基于来自服务器Hello的散列值识别TLS服务器<br><br>输入：TLS服务器Hello记录应用层的十六进制流。Generates a JA3S fingerprint to help identify TLS servers based on hashing together values from the Server Hello.<br><br>Input: A hex stream of the TLS Server Hello record application layer.";
         this.infoURL = "https://engineering.salesforce.com/tls-fingerprinting-with-ja3-and-ja3s-247362855967";
         this.inputType = "string";
         this.outputType = "string";

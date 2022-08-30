@@ -23,7 +23,7 @@ class GetTime extends Operation {
         this.name = "Get Time";
         this.module = "Default";
         this.local="";
-        this.description = "生成一个时间戳，显示自UNIX纪元（1970-01-01 00:00:00 UTC）以来的时间量。使用W3C高分辨率时间API。Generates a timestamp showing the amount of time since the UNIX epoch (1970-01-01 00:00:00 UTC). Uses the W3C High Resolution Time API.";
+        this.description = "生成一个时间戳,显示自UNIX纪元（1970-01-01 00:00:00 UTC）以来的时间量。使用W3C高分辨率时间API。Generates a timestamp showing the amount of time since the UNIX epoch (1970-01-01 00:00:00 UTC). Uses the W3C High Resolution Time API.";
         this.infoURL = "https://wikipedia.org/wiki/Unix_time";
         this.inputType = "string";
         this.outputType = "number";

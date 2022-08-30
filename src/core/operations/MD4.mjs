@@ -21,7 +21,7 @@ class MD4 extends Operation {
         this.name = "MD4";
         this.module = "Crypto";
         this.local="";
-        this.description = "MD4（消息摘要4）算法是Ronald Rivest于1990年开发的一种加密哈希函数。摘要长度为128位。该算法影响了后来的设计，如MD5、SHA-1和RIPEMD算法<br><br>MD4的安全性已严重受损。The MD4 (Message-Digest 4) algorithm is a cryptographic hash function developed by Ronald Rivest in 1990. The digest length is 128 bits. The algorithm has influenced later designs, such as the MD5, SHA-1 and RIPEMD algorithms.<br><br>The security of MD4 has been severely compromised.";
+        this.description = "MD4（消息摘要4）算法是Ronald Rivest于1990年开发的一种加密哈希函数。摘要长度为128位。该算法影响了后来的设计,如MD5、SHA-1和RIPEMD算法<br><br>MD4的安全性已严重受损。The MD4 (Message-Digest 4) algorithm is a cryptographic hash function developed by Ronald Rivest in 1990. The digest length is 128 bits. The algorithm has influenced later designs, such as the MD5, SHA-1 and RIPEMD algorithms.<br><br>The security of MD4 has been severely compromised.";
         this.infoURL = "https://wikipedia.org/wiki/MD4";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";

@@ -26,7 +26,7 @@ class Entropy extends Operation {
         this.name = "Entropy";
         this.module = "Charts";
         this.local="";
-        this.description = "在信息论的背景下，香农熵是对数据源产生信息的速率的度量。从广义上讲，它可以用于检测数据是否可能是结构化的或非结构化的。8是最大值，表示高度非结构化的“随机”数据。英语文本通常介于3.5和5之间。正确加密或压缩的数据的熵应大于7.5。Shannon Entropy, in the context of information theory, is a measure of the rate at which information is produced by a source of data. It can be used, in a broad sense, to detect whether data is likely to be structured or unstructured. 8 is the maximum, representing highly unstructured, 'random' data. English language text usually falls somewhere between 3.5 and 5. Properly encrypted or compressed data should have an entropy of over 7.5.";
+        this.description = "在信息论的背景下,香农熵是对数据源产生信息的速率的度量。从广义上讲,它可以用于检测数据是否可能是结构化的或非结构化的。8是最大值,表示高度非结构化的“随机”数据。英语文本通常介于3.5和5之间。正确加密或压缩的数据的熵应大于7.5。Shannon Entropy, in the context of information theory, is a measure of the rate at which information is produced by a source of data. It can be used, in a broad sense, to detect whether data is likely to be structured or unstructured. 8 is the maximum, representing highly unstructured, 'random' data. English language text usually falls somewhere between 3.5 and 5. Properly encrypted or compressed data should have an entropy of over 7.5.";
         this.infoURL = "https://wikipedia.org/wiki/Entropy_(information_theory)";
         this.inputType = "ArrayBuffer";
         this.outputType = "json";

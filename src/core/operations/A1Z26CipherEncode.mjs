@@ -22,7 +22,7 @@ class A1Z26CipherEncode extends Operation {
         this.name = "A1Z26 Cipher Encode";
         this.module = "Ciphers";
         this.local="";
-        this.description = "将字母表字符转换为相应的字母表顺序号。<br><br>例如，<code>a</code>变为<code>1</code>，而<code>b</code>变为<code>2</code><br><br>非字母字符将被删除。Converts alphabet characters into their corresponding alphabet order number.<br><br>e.g. <code>a</code> becomes <code>1</code> and <code>b</code> becomes <code>2</code>.<br><br>Non-alphabet characters are dropped.";
+        this.description = "将字母表字符转换为相应的字母表顺序号。<br><br>例如,<code>a</code>变为<code>1</code>,而<code>b</code>变为<code>2</code><br><br>非字母字符将被删除。Converts alphabet characters into their corresponding alphabet order number.<br><br>e.g. <code>a</code> becomes <code>1</code> and <code>b</code> becomes <code>2</code>.<br><br>Non-alphabet characters are dropped.";
         this.infoURL = "";
         this.inputType = "string";
         this.outputType = "string";

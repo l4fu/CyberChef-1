@@ -21,7 +21,7 @@ class ConvertCoordinateFormat extends Operation {
         this.name = "Convert co-ordinate format";
         this.module = "Hashing";
         this.local="";
-        this.description = "在不同格式之间转换地理坐标<br><br>支持的格式：<ul><li>度分秒（DMS）</li><li>度分（DDM）</li><li>度分（DD）</li><li>Geohash</li>军用网格参考系统（MGRS）</li><li>国家测绘局（OSNG）</lis><li>通用横向墨卡托（UTM）</li></ul><br>操作可以尝试自动检测输入坐标格式和定界符，但这可能并不总是正确工作。Converts geographical coordinates between different formats.<br><br>Supported formats:<ul><li>Degrees Minutes Seconds (DMS)</li><li>Degrees Decimal Minutes (DDM)</li><li>Decimal Degrees (DD)</li><li>Geohash</li><li>Military Grid Reference System (MGRS)</li><li>Ordnance Survey National Grid (OSNG)</li><li>Universal Transverse Mercator (UTM)</li></ul><br>The operation can try to detect the input co-ordinate format and delimiter automatically, but this may not always work correctly.";
+        this.description = "在不同格式之间转换地理坐标<br><br>支持的格式：<ul><li>度分秒（DMS）</li><li>度分（DDM）</li><li>度分（DD）</li><li>Geohash</li>军用网格参考系统（MGRS）</li><li>国家测绘局（OSNG）</lis><li>通用横向墨卡托（UTM）</li></ul><br>操作可以尝试自动检测输入坐标格式和定界符,但这可能并不总是正确工作。Converts geographical coordinates between different formats.<br><br>Supported formats:<ul><li>Degrees Minutes Seconds (DMS)</li><li>Degrees Decimal Minutes (DDM)</li><li>Decimal Degrees (DD)</li><li>Geohash</li><li>Military Grid Reference System (MGRS)</li><li>Ordnance Survey National Grid (OSNG)</li><li>Universal Transverse Mercator (UTM)</li></ul><br>The operation can try to detect the input co-ordinate format and delimiter automatically, but this may not always work correctly.";
         this.infoURL = "https://wikipedia.org/wiki/Geographic_coordinate_conversion";
         this.inputType = "string";
         this.outputType = "string";

@@ -21,7 +21,7 @@ class IndexOfCoincidence extends Operation {
         this.name = "Index of Coincidence";
         this.module = "Default";
         this.local="";
-        this.description = "一致性指数（IC）是两个随机选择的字符相同的概率。这可以用来确定文本是可读的还是随机的，英语文本的IC大约为0.066。因此，IC可以是自动频率分析的可靠方法。Index of Coincidence (IC) is the probability of two randomly selected characters being the same. This can be used to determine whether text is readable or random, with English text having an IC of around 0.066. IC can therefore be a sound method to automate frequency analysis.";
+        this.description = "一致性指数（IC）是两个随机选择的字符相同的概率。这可以用来确定文本是可读的还是随机的,英语文本的IC大约为0.066。因此,IC可以是自动频率分析的可靠方法。Index of Coincidence (IC) is the probability of two randomly selected characters being the same. This can be used to determine whether text is readable or random, with English text having an IC of around 0.066. IC can therefore be a sound method to automate frequency analysis.";
         this.infoURL = "https://wikipedia.org/wiki/Index_of_coincidence";
         this.inputType = "string";
         this.outputType = "number";

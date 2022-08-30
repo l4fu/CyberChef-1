@@ -24,7 +24,7 @@ class BLAKE2b extends Operation {
         this.name = "BLAKE2b";
         this.module = "Hashing";
         this.local="";
-        this.description = "对输入执行BLAKE2b散列<br><br>BLAKE2b是BLAKE加密哈希函数的一种风格，针对64位平台进行了优化，并生成1到64字节之间的任何大小的摘要<br><br>支持使用可选键。Performs BLAKE2b hashing on the input.  <br><br> BLAKE2b is a flavour of the BLAKE cryptographic hash function that is optimized for 64-bit platforms and produces digests of any size between 1 and 64 bytes.<br><br> Supports the use of an optional key.";
+        this.description = "对输入执行BLAKE2b散列<br><br>BLAKE2b是BLAKE加密哈希函数的一种风格,针对64位平台进行了优化,并生成1到64字节之间的任何大小的摘要<br><br>支持使用可选键。Performs BLAKE2b hashing on the input.  <br><br> BLAKE2b is a flavour of the BLAKE cryptographic hash function that is optimized for 64-bit platforms and produces digests of any size between 1 and 64 bytes.<br><br> Supports the use of an optional key.";
         this.infoURL = "https://wikipedia.org/wiki/BLAKE_(hash_function)#BLAKE2b_algorithm";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";

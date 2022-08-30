@@ -21,7 +21,7 @@ class DefangIPAddresses extends Operation {
         this.name = "Defang IP Addresses";
         this.module = "Default";
         this.local="";
-        this.description = "获取IPv4或IPv6地址并“删除”它，这意味着该IP变得无效，从而消除了意外将其用作IP地址的风险。Takes a IPv4 or IPv6 address and 'Defangs' it, meaning the IP becomes invalid, removing the risk of accidentally utilising it as an IP address.";
+        this.description = "获取IPv4或IPv6地址并“删除”它,这意味着该IP变得无效,从而消除了意外将其用作IP地址的风险。Takes a IPv4 or IPv6 address and 'Defangs' it, meaning the IP becomes invalid, removing the risk of accidentally utilising it as an IP address.";
         this.infoURL = "https://isc.sans.edu/forums/diary/Defang+all+the+things/22744/";
         this.inputType = "string";
         this.outputType = "string";

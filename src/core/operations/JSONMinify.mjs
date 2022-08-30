@@ -21,7 +21,7 @@ class JSONMinify extends Operation {
         this.name = "JSON Minify";
         this.module = "Code";
         this.local="";
-        this.description = "Compresses JavaScript Object Notation (JSON) code.";
+        this.description = "压缩JavaScript对象表示法（JSON）代码。Compresses JavaScript Object Notation (JSON) code.";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [];

@@ -23,7 +23,7 @@ class FromBase58 extends Operation {
         this.name = "From Base58";
         this.module = "Default";
         this.local="";
-        this.description = "Base58（类似于Base64）是用于编码任意字节数据的符号。它与Base64的不同之处在于删除了容易误读的字符（即l、i、0和O），以提高人类可读性<br><br>此操作将ASCII字符串（包括您选择的字母表和预设）中的数据解码回原始形式。<br><br>例如，<code>stv1dl6cwtryyv</code>变为<code>hello world</code><br><br>Base58通常用于加密货币（比特币、Ripple等）。Base58 (similar to Base64) is a notation for encoding arbitrary byte data. It differs from Base64 by removing easily misread characters (i.e. l, I, 0 and O) to improve human readability.<br><br>This operation decodes data from an ASCII string (with an alphabet of your choosing, presets included) back into its raw form.<br><br>e.g. <code>StV1DL6CwTryKyV</code> becomes <code>hello world</code><br><br>Base58 is commonly used in cryptocurrencies (Bitcoin, Ripple, etc).";
+        this.description = "Base58（类似于Base64）是用于编码任意字节数据的符号。它与Base64的不同之处在于删除了容易误读的字符（即l、i、0和O）,以提高人类可读性<br><br>此操作将ASCII字符串（包括您选择的字母表和预设）中的数据解码回原始形式。<br><br>例如,<code>stv1dl6cwtryyv</code>变为<code>hello world</code><br><br>Base58通常用于加密货币（比特币、Ripple等）。Base58 (similar to Base64) is a notation for encoding arbitrary byte data. It differs from Base64 by removing easily misread characters (i.e. l, I, 0 and O) to improve human readability.<br><br>This operation decodes data from an ASCII string (with an alphabet of your choosing, presets included) back into its raw form.<br><br>e.g. <code>StV1DL6CwTryKyV</code> becomes <code>hello world</code><br><br>Base58 is commonly used in cryptocurrencies (Bitcoin, Ripple, etc).";
         this.infoURL = "https://wikipedia.org/wiki/Base58";
         this.inputType = "string";
         this.outputType = "byteArray";

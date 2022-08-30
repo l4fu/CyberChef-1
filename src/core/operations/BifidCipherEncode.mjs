@@ -22,7 +22,7 @@ class BifidCipherEncode extends Operation {
         this.name = "Bifid Cipher Encode";
         this.module = "Ciphers";
         this.local="";
-        this.description = "双歧密码是一种将多比乌斯平方与转置结合使用的密码，在不知道字母表关键字的情况下很难破译。The Bifid cipher is a cipher which uses a Polybius square in conjunction with transposition, which can be fairly difficult to decipher without knowing the alphabet keyword.";
+        this.description = "双歧密码是一种将多比乌斯平方与转置结合使用的密码,在不知道字母表关键字的情况下很难破译。The Bifid cipher is a cipher which uses a Polybius square in conjunction with transposition, which can be fairly difficult to decipher without knowing the alphabet keyword.";
         this.infoURL = "https://wikipedia.org/wiki/Bifid_cipher";
         this.inputType = "string";
         this.outputType = "string";

@@ -22,7 +22,7 @@ class FuzzyMatch extends Operation {
         this.name = "Fuzzy Match";
         this.module = "Default";
         this.local="";
-        this.description = "根据加权标准执行模糊搜索以在输入中查找模式。<br><br>例如，搜索<code>dpan</code>将在<code>上匹配<b>D</b>在<b>上匹配Conducts a fuzzy search to find a pattern within the input based on weighted criteria.<br><br>e.g. A search for <code>dpan</code> will match on <code><b>D</b>on't <b>Pan</b>ic</code>";
+        this.description = "根据加权标准执行模糊搜索以在输入中查找模式。<br><br>例如,搜索<code>dpan</code>将在<code>上匹配<b>D</b>在<b>上匹配Conducts a fuzzy search to find a pattern within the input based on weighted criteria.<br><br>e.g. A search for <code>dpan</code> will match on <code><b>D</b>on't <b>Pan</b>ic</code>";
         this.infoURL = "https://wikipedia.org/wiki/Fuzzy_matching_(computer-assisted_translation)";
         this.inputType = "string";
         this.outputType = "html";

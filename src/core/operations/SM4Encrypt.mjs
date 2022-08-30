@@ -24,7 +24,7 @@ class SM4Encrypt extends Operation {
         this.name = "SM4 Encrypt";
         this.module = "Ciphers";
         this.local="";
-        this.description = "SM4是一种128位分组密码，目前已成为中国国家标准（GB/T 32907-2016）。支持多种分组密码模式。当使用CBC或ECB模式时，使用PKCS#7填充方案。SM4 is a 128-bit block cipher, currently established as a national standard (GB/T 32907-2016) of China. Multiple block cipher modes are supported. When using CBC or ECB mode, the PKCS#7 padding scheme is used.";
+        this.description = "SM4是一种128位分组密码,目前已成为中国国家标准（GB/T 32907-2016）。支持多种分组密码模式。当使用CBC或ECB模式时,使用PKCS#7填充方案。SM4 is a 128-bit block cipher, currently established as a national standard (GB/T 32907-2016) of China. Multiple block cipher modes are supported. When using CBC or ECB mode, the PKCS#7 padding scheme is used.";
         this.infoURL = "https://wikipedia.org/wiki/SM4_(cipher)";
         this.inputType = "string";
         this.outputType = "string";

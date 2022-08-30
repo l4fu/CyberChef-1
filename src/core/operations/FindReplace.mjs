@@ -22,7 +22,7 @@ class FindReplace extends Operation {
         this.name = "Find / Replace";
         this.module = "Regex";
         this.local="";
-        this.description = "用第二个字符串替换第一个字符串的所有匹配项<br><br>包括对正则表达式（regex）、简单字符串和扩展字符串的支持（支持\ \ n、\ \ r、\ \ t、\ \ b、\ \ f和使用\ \ x表示法转义的十六进制字节，例如，\ \ x00表示空字节）。Replaces all occurrences of the first string with the second.<br><br>Includes support for regular expressions (regex), simple strings and extended strings (which support \\n, \\r, \\t, \\b, \\f and escaped hex bytes using \\x notation, e.g. \\x00 for a null byte).";
+        this.description = "用第二个字符串替换第一个字符串的所有匹配项<br><br>包括对正则表达式（regex）、简单字符串和扩展字符串的支持（支持00n、00r、00t、00b、00f和使用00x表示法转义的十六进制字节,例如,00x00表示空字节）。Replaces all occurrences of the first string with the second.<br><br>Includes support for regular expressions (regex), simple strings and extended strings (which support \\n, \\r, \\t, \\b, \\f and escaped hex bytes using \\x notation, e.g. \\x00 for a null byte).";
         this.infoURL = "https://wikipedia.org/wiki/Regular_expression";
         this.inputType = "string";
         this.outputType = "string";

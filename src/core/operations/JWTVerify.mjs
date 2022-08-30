@@ -23,7 +23,7 @@ class JWTVerify extends Operation {
         this.name = "JWT Verify";
         this.module = "Crypto";
         this.local="";
-        this.description = "验证JSON Web令牌是否有效，并已使用提供的密钥/私钥签名<br><br>密钥应该是HMAC算法的秘密，或者是RSA和ECDSA的PEM编码私钥。Verifies that a JSON Web Token is valid and has been signed with the provided secret / private key.<br><br>The key should be either the secret for HMAC algorithms or the PEM-encoded private key for RSA and ECDSA.";
+        this.description = "验证JSON Web令牌是否有效,并已使用提供的密钥/私钥签名<br><br>密钥应该是HMAC算法的秘密,或者是RSA和ECDSA的PEM编码私钥。Verifies that a JSON Web Token is valid and has been signed with the provided secret / private key.<br><br>The key should be either the secret for HMAC algorithms or the PEM-encoded private key for RSA and ECDSA.";
         this.infoURL = "https://wikipedia.org/wiki/JSON_Web_Token";
         this.inputType = "string";
         this.outputType = "JSON";

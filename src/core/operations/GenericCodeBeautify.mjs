@@ -20,7 +20,7 @@ class GenericCodeBeautify extends Operation {
         this.name = "Generic Code Beautify";
         this.module = "Code";
         this.local="";
-        this.description = "尝试漂亮地打印C风格的语言，如C、C++、C#、Java、PHP、JavaScript等。<br><br>这将做不到完美的工作，生成的代码可能不再有效。此操作纯粹是为了使模糊或缩小的代码更易于阅读和理解<br><br>无法正常工作的事情：<ul><li>对于循环格式化</li><li>While循环格式化＜/li><li>切换/大小写缩进</li><li>某些位移位运算符</li></ul>Attempts to pretty print C-style languages such as C, C++, C#, Java, PHP, JavaScript etc.<br><br>This will not do a perfect job, and the resulting code may not work any more. This operation is designed purely to make obfuscated or minified code more easy to read and understand.<br><br>Things which will not work properly:<ul><li>For loop formatting</li><li>Do-While loop formatting</li><li>Switch/Case indentation</li><li>Certain bit shift operators</li></ul>";
+        this.description = "尝试漂亮地打印C风格的语言,如C、C++、C#、Java、PHP、JavaScript等。<br><br>这将做不到完美的工作,生成的代码可能不再有效。此操作纯粹是为了使模糊或缩小的代码更易于阅读和理解<br><br>无法正常工作的事情：<ul><li>对于循环格式化</li><li>While循环格式化＜/li><li>切换/大小写缩进</li><li>某些位移位运算符</li></ul>Attempts to pretty print C-style languages such as C, C++, C#, Java, PHP, JavaScript etc.<br><br>This will not do a perfect job, and the resulting code may not work any more. This operation is designed purely to make obfuscated or minified code more easy to read and understand.<br><br>Things which will not work properly:<ul><li>For loop formatting</li><li>Do-While loop formatting</li><li>Switch/Case indentation</li><li>Certain bit shift operators</li></ul>";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [];

@@ -23,7 +23,7 @@ class JWTSign extends Operation {
         this.name = "JWT Sign";
         this.module = "Crypto";
         this.local="";
-        this.description = "使用提供的秘密/私钥将JSON对象签名为JSON Web令牌<br><br>密钥应该是HMAC算法的秘密，或者是RSA和ECDSA的PEM编码私钥。Signs a JSON object as a JSON Web Token using a provided secret / private key.<br><br>The key should be either the secret for HMAC algorithms or the PEM-encoded private key for RSA and ECDSA.";
+        this.description = "使用提供的秘密/私钥将JSON对象签名为JSON Web令牌<br><br>密钥应该是HMAC算法的秘密,或者是RSA和ECDSA的PEM编码私钥。Signs a JSON object as a JSON Web Token using a provided secret / private key.<br><br>The key should be either the secret for HMAC algorithms or the PEM-encoded private key for RSA and ECDSA.";
         this.infoURL = "https://wikipedia.org/wiki/JSON_Web_Token";
         this.inputType = "JSON";
         this.outputType = "string";

@@ -21,7 +21,7 @@ class AnalyseHash extends Operation {
         this.name = "Analyse hash";
         this.module = "Crypto";
         this.local="";
-        this.description = "尝试确定关于给定散列的信息，并根据其长度建议可能已使用哪个算法生成该散列。Tries to determine information about a given hash and suggests which algorithm may have been used to generate it based on its length.";
+        this.description = "尝试确定关于给定散列的信息,并根据其长度建议可能已使用哪个算法生成该散列。Tries to determine information about a given hash and suggests which algorithm may have been used to generate it based on its length.";
         this.infoURL = "https://wikipedia.org/wiki/Comparison_of_cryptographic_hash_functions";
         this.inputType = "string";
         this.outputType = "string";

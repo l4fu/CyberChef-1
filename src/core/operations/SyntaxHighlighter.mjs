@@ -21,7 +21,7 @@ class SyntaxHighlighter extends Operation {
         this.name = "Syntax highlighter";
         this.module = "Code";
         this.local="";
-        this.description = "将语法高亮显示添加到一系列源代码语言中。请注意，这不会缩进代码。为此，请使用“美化”操作之一。Adds syntax highlighting to a range of source code languages. Note that this will not indent the code. Use one of the 'Beautify' operations for that.";
+        this.description = "将语法高亮显示添加到一系列源代码语言中。请注意,这不会缩进代码。为此,请使用“美化”操作之一。Adds syntax highlighting to a range of source code languages. Note that this will not indent the code. Use one of the 'Beautify' operations for that.";
         this.infoURL = "https://wikipedia.org/wiki/Syntax_highlighting";
         this.inputType = "string";
         this.outputType = "html";

@@ -22,7 +22,7 @@ class Keccak extends Operation {
         this.name = "Keccak";
         this.module = "Crypto";
         this.local="";
-        this.description = "Keccak哈希算法是由Guido Bertoni、Joan Daemen、Micha\ xebl Peeters和Gilles Van Assche在Radioat\ xfan的基础上设计的。它被选为SHA-3设计竞赛的冠军<br><br>此版本的算法是Keccak[c=2d]，与SHA-3规范不同。The Keccak hash algorithm was designed by Guido Bertoni, Joan Daemen, Micha\xebl Peeters, and Gilles Van Assche, building upon RadioGat\xfan. It was selected as the winner of the SHA-3 design competition.<br><br>This version of the algorithm is Keccak[c=2d] and differs from the SHA-3 specification.";
+        this.description = "Keccak哈希算法是由Guido Bertoni、Joan Daemen、Micha0xebl Peeters和Gilles Van Assche在Radioat0xfan的基础上设计的。它被选为SHA-3设计竞赛的冠军<br><br>此版本的算法是Keccak[c=2d],与SHA-3规范不同。The Keccak hash algorithm was designed by Guido Bertoni, Joan Daemen, Micha\xebl Peeters, and Gilles Van Assche, building upon RadioGat\xfan. It was selected as the winner of the SHA-3 design competition.<br><br>This version of the algorithm is Keccak[c=2d] and differs from the SHA-3 specification.";
         this.infoURL = "https://wikipedia.org/wiki/SHA-3";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";

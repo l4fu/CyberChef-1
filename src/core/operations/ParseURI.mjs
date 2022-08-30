@@ -21,7 +21,7 @@ class ParseURI extends Operation {
         this.name = "Parse URI";
         this.module = "URL";
         this.local="";
-        this.description = "Pretty打印复杂的统一资源标识符（URI）字符串，以便于阅读。对于具有大量参数的统一资源定位器（URL）特别有用。Pretty prints complicated Uniform Resource Identifier (URI) strings for ease of reading. Particularly useful for Uniform Resource Locators (URLs) with a lot of arguments.";
+        this.description = "Pretty打印复杂的统一资源标识符（URI）字符串,以便于阅读。对于具有大量参数的统一资源定位器（URL）特别有用。Pretty prints complicated Uniform Resource Identifier (URI) strings for ease of reading. Particularly useful for Uniform Resource Locators (URLs) with a lot of arguments.";
         this.infoURL = "https://wikipedia.org/wiki/Uniform_Resource_Identifier";
         this.inputType = "string";
         this.outputType = "string";

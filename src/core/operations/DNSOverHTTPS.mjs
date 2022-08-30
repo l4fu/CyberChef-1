@@ -20,7 +20,7 @@ class DNSOverHTTPS extends Operation {
         this.name = "DNS over HTTPS";
         this.module = "Default";
         this.local="";
-        this.description = "获取单个域名并通过HTTPS使用DNS执行DNS查找<br><br>默认情况下，<a href='https://developers.cloudflare.com/1.1.1.1/dns-over-https/“>Cloudflare</a>和<a href='https://developers.google.com/speed/public-dns/docs/dns-over-https“>Google</a>支持HTTPS上的DNS服务<br><br>可与支持获取参数<code>名称</code>和<code>类型</code>的任何服务一起使用。Takes a single domain name and performs a DNS lookup using DNS over HTTPS.<br><br>By default, <a href='https://developers.cloudflare.com/1.1.1.1/dns-over-https/'>Cloudflare</a> and <a href='https://developers.google.com/speed/public-dns/docs/dns-over-https'>Google</a> DNS over HTTPS services are supported.<br><br>Can be used with any service that supports the GET parameters <code>name</code> and <code>type</code>.";
+        this.description = "获取单个域名并通过HTTPS使用DNS执行DNS查找<br><br>默认情况下,<a href='https://developers.cloudflare.com/1.1.1.1/dns-over-https/“>Cloudflare</a>和<a href='https://developers.google.com/speed/public-dns/docs/dns-over-https“>Google</a>支持HTTPS上的DNS服务<br><br>可与支持获取参数<code>名称</code>和<code>类型</code>的任何服务一起使用。Takes a single domain name and performs a DNS lookup using DNS over HTTPS.<br><br>By default, <a href='https://developers.cloudflare.com/1.1.1.1/dns-over-https/'>Cloudflare</a> and <a href='https://developers.google.com/speed/public-dns/docs/dns-over-https'>Google</a> DNS over HTTPS services are supported.<br><br>Can be used with any service that supports the GET parameters <code>name</code> and <code>type</code>.";
         this.infoURL = "https://wikipedia.org/wiki/DNS_over_HTTPS";
         this.inputType = "string";
         this.outputType = "JSON";

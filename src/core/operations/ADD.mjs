@@ -22,7 +22,7 @@ class ADD extends Operation {
         this.name = "ADD";
         this.module = "Default";
         this.local="";
-        this.description = "使用给定键添加输入（例如，<code>fe023da5</code>），MOD 255ADD the input with the given key (e.g. <code>fe023da5</code>), MOD 255";
+        this.description = "使用给定键添加输入（例如,<code>fe023da5</code>）,MOD 255ADD the input with the given key (e.g. <code>fe023da5</code>), MOD 255";
         this.infoURL = "https://wikipedia.org/wiki/Bitwise_operation#Bitwise_operators";
         this.inputType = "byteArray";
         this.outputType = "byteArray";

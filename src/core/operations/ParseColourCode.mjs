@@ -20,7 +20,7 @@ class ParseColourCode extends Operation {
         this.name = "Parse colour code";
         this.module = "Default";
         this.local="";
-        this.description = "将标准格式的颜色代码转换为其他标准格式，并显示颜色本身<br><br><strong>示例输入</strong><ul><li><code>#d9edf7</code><li><code>rgba（21723727,1）</code><li><code>hsla（200,65%，91%，1）</code></li><li>cmyk（0.12，0.04，0.00，0.03）</code><Converts a colour code in a standard format to other standard formats and displays the colour itself.<br><br><strong>Example inputs</strong><ul><li><code>#d9edf7</code></li><li><code>rgba(217,237,247,1)</code></li><li><code>hsla(200,65%,91%,1)</code></li><li><code>cmyk(0.12, 0.04, 0.00, 0.03)</code></li></ul>";
+        this.description = "将标准格式的颜色代码转换为其他标准格式,并显示颜色本身<br><br><strong>示例输入</strong><ul><li><code>#d9edf7</code><li><code>rgba（21723727,1）</code><li><code>hsla（200,65%,91%,1）</code></li><li>cmyk（0.12,0.04,0.00,0.03）</code><Converts a colour code in a standard format to other standard formats and displays the colour itself.<br><br><strong>Example inputs</strong><ul><li><code>#d9edf7</code></li><li><code>rgba(217,237,247,1)</code></li><li><code>hsla(200,65%,91%,1)</code></li><li><code>cmyk(0.12, 0.04, 0.00, 0.03)</code></li></ul>";
         this.infoURL = "https://wikipedia.org/wiki/Web_colors";
         this.inputType = "string";
         this.outputType = "html";

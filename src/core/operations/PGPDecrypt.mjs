@@ -25,7 +25,7 @@ class PGPDecrypt extends Operation {
         this.name = "PGP Decrypt";
         this.module = "PGP";
         this.local="";
-        this.description = "输入：要解密的ASCII铠装PGP消息<br><br>参数：收件人的ASCII铠装PGP私钥（以及私钥密码，如有必要）<br><br>相当好的隐私是用于加密、解密和签名消息的加密标准（OpenPGP）<br><br>此函数使用PGP的Keybase实现。Input: the ASCII-armoured PGP message you want to decrypt.<br><br>Arguments: the ASCII-armoured PGP private key of the recipient, (and the private key password if necessary). <br><br>Pretty Good Privacy is an encryption standard (OpenPGP) used for encrypting, decrypting, and signing messages.<br><br>This function uses the Keybase implementation of PGP.";
+        this.description = "输入：要解密的ASCII铠装PGP消息<br><br>参数：收件人的ASCII铠装PGP私钥（以及私钥密码,如有必要）<br><br>相当好的隐私是用于加密、解密和签名消息的加密标准（OpenPGP）<br><br>此函数使用PGP的Keybase实现。Input: the ASCII-armoured PGP message you want to decrypt.<br><br>Arguments: the ASCII-armoured PGP private key of the recipient, (and the private key password if necessary). <br><br>Pretty Good Privacy is an encryption standard (OpenPGP) used for encrypting, decrypting, and signing messages.<br><br>This function uses the Keybase implementation of PGP.";
         this.infoURL = "https://wikipedia.org/wiki/Pretty_Good_Privacy";
         this.inputType = "string";
         this.outputType = "string";
