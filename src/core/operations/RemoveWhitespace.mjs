@@ -19,6 +19,7 @@ class RemoveWhitespace extends Operation {
 
         this.name = "Remove whitespace";
         this.module = "Default";
+        this.local="";
         this.description = "Optionally removes all spaces, carriage returns, line feeds, tabs and form feeds from the input data.<br><br>This operation also supports the removal of full stops which are sometimes used to represent non-printable bytes in ASCII output.";
         this.inputType = "string";
         this.outputType = "string";

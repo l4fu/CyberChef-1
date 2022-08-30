@@ -21,6 +21,7 @@ class Jump extends Operation {
         this.name = "Jump";
         this.flowControl = true;
         this.module = "Default";
+        this.local="";
         this.description = "Jump forwards or backwards to the specified Label";
         this.inputType = "string";
         this.outputType = "string";

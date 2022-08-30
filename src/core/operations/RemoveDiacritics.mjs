@@ -19,6 +19,7 @@ class RemoveDiacritics extends Operation {
 
         this.name = "Remove Diacritics";
         this.module = "Default";
+        this.local="";
         this.description = "Replaces accented characters with their latin character equivalent. Accented characters are made up of Unicode combining characters, so unicode text formatting such as strikethroughs and underlines will also be removed.";
         this.infoURL = "https://wikipedia.org/wiki/Diacritic";
         this.inputType = "string";

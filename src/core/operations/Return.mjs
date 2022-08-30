@@ -20,6 +20,7 @@ class Return extends Operation {
         this.name = "Return";
         this.flowControl = true;
         this.module = "Default";
+        this.local="";
         this.description = "End execution of operations at this point in the recipe.";
         this.inputType = "string";
         this.outputType = "string";

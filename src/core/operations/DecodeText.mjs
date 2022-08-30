@@ -21,6 +21,7 @@ class DecodeText extends Operation {
 
         this.name = "Decode text";
         this.module = "Encodings";
+        this.local="";
         this.description = [
             "Decodes text from the chosen character encoding.",
             "<br><br>",

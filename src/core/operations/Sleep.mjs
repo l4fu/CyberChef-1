@@ -19,6 +19,7 @@ class Sleep extends Operation {
 
         this.name = "Sleep";
         this.module = "Default";
+        this.local="";
         this.description = "Sleep causes the recipe to wait for a specified number of milliseconds before continuing execution.";
         this.inputType = "ArrayBuffer";
         this.outputType = "ArrayBuffer";

@@ -19,6 +19,7 @@ class RemoveNullBytes extends Operation {
 
         this.name = "Remove null bytes";
         this.module = "Default";
+        this.local="";
         this.description = "Removes all null bytes (<code>0x00</code>) from the input.";
         this.inputType = "ArrayBuffer";
         this.outputType = "byteArray";

@@ -24,6 +24,7 @@ class PlayMedia extends Operation {
 
         this.name = "Play Media";
         this.module = "Default";
+        this.local="";
         this.description = "Plays the input as audio or video depending on the type.<br><br>Tags: sound, movie, mp3, mp4, mov, webm, wav, ogg";
         this.infoURL = "";
         this.inputType = "string";

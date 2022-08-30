@@ -22,6 +22,7 @@ class YARARules extends Operation {
 
         this.name = "YARA Rules";
         this.module = "Yara";
+        this.local="";
         this.description = "YARA is a tool developed at VirusTotal, primarily aimed at helping malware researchers to identify and classify malware samples. It matches based on rules specified by the user containing textual or binary patterns and a boolean expression. For help on writing rules, see the <a href='https://yara.readthedocs.io/en/latest/writingrules.html'>YARA documentation.</a>";
         this.infoURL = "https://wikipedia.org/wiki/YARA";
         this.inputType = "ArrayBuffer";

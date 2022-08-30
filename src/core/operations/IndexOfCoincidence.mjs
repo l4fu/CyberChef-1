@@ -20,6 +20,7 @@ class IndexOfCoincidence extends Operation {
 
         this.name = "Index of Coincidence";
         this.module = "Default";
+        this.local="";
         this.description = "Index of Coincidence (IC) is the probability of two randomly selected characters being the same. This can be used to determine whether text is readable or random, with English text having an IC of around 0.066. IC can therefore be a sound method to automate frequency analysis.";
         this.infoURL = "https://wikipedia.org/wiki/Index_of_coincidence";
         this.inputType = "string";

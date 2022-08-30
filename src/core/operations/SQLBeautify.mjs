@@ -20,6 +20,7 @@ class SQLBeautify extends Operation {
 
         this.name = "SQL Beautify";
         this.module = "Code";
+        this.local="";
         this.description = "Indents and prettifies Structured Query Language (SQL) code.";
         this.inputType = "string";
         this.outputType = "string";

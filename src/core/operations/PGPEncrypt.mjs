@@ -24,6 +24,7 @@ class PGPEncrypt extends Operation {
 
         this.name = "PGP Encrypt";
         this.module = "PGP";
+        this.local="";
         this.description = [
             "Input: the message you want to encrypt.",
             "<br><br>",

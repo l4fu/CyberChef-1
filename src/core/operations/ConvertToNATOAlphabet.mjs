@@ -18,6 +18,7 @@ class ConvertToNATOAlphabet extends Operation {
 
         this.name = "Convert to NATO alphabet";
         this.module = "Default";
+        this.local="";
         this.description = "Converts characters to their representation in the NATO phonetic alphabet.";
         this.infoURL = "https://wikipedia.org/wiki/NATO_phonetic_alphabet";
         this.inputType = "string";

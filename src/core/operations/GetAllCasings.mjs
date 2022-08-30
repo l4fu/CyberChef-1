@@ -19,6 +19,7 @@ class GetAllCasings extends Operation {
 
         this.name = "Get All Casings";
         this.module = "Default";
+        this.local="";
         this.description = "Outputs all possible casing variations of a string.";
         this.infoURL = "";
         this.inputType = "string";

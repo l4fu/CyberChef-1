@@ -19,6 +19,7 @@ class DropBytes extends Operation {
 
         this.name = "Drop bytes";
         this.module = "Default";
+        this.local="";
         this.description = "Cuts a slice of the specified number of bytes out of the data. Negative values are allowed.";
         this.inputType = "ArrayBuffer";
         this.outputType = "ArrayBuffer";

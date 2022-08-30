@@ -24,6 +24,7 @@ class RenderImage extends Operation {
 
         this.name = "Render Image";
         this.module = "Image";
+        this.local="";
         this.description = "Displays the input as an image. Supports the following formats:<br><br><ul><li>jpg/jpeg</li><li>png</li><li>gif</li><li>webp</li><li>bmp</li><li>ico</li></ul>";
         this.inputType = "string";
         this.outputType = "byteArray";

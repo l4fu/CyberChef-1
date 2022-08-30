@@ -20,6 +20,7 @@ class Label extends Operation {
         this.name = "Label";
         this.flowControl = true;
         this.module = "Default";
+        this.local="";
         this.description = "Provides a location for conditional and fixed jumps to redirect execution to.";
         this.inputType = "string";
         this.outputType = "string";

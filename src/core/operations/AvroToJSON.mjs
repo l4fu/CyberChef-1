@@ -21,6 +21,7 @@ class AvroToJSON extends Operation {
 
         this.name = "Avro to JSON";
         this.module = "Serialise";
+        this.local="";
         this.description = "Converts Avro encoded data into JSON.";
         this.infoURL = "https://wikipedia.org/wiki/Apache_Avro";
         this.inputType = "ArrayBuffer";

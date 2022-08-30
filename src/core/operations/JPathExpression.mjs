@@ -21,6 +21,7 @@ class JPathExpression extends Operation {
 
         this.name = "JPath expression";
         this.module = "Code";
+        this.local="";
         this.description = "Extract information from a JSON object with a JPath query.";
         this.infoURL = "http://goessner.net/articles/JsonPath/";
         this.inputType = "string";

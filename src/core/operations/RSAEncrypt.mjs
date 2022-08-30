@@ -22,6 +22,7 @@ class RSAEncrypt extends Operation {
 
         this.name = "RSA Encrypt";
         this.module = "Ciphers";
+        this.local="";
         this.description = "Encrypt a message with a PEM encoded RSA public key.";
         this.infoURL = "https://wikipedia.org/wiki/RSA_(cryptosystem)";
         this.inputType = "string";

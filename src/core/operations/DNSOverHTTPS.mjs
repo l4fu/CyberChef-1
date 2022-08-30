@@ -19,6 +19,7 @@ class DNSOverHTTPS extends Operation {
 
         this.name = "DNS over HTTPS";
         this.module = "Default";
+        this.local="";
         this.description = [
             "Takes a single domain name and performs a DNS lookup using DNS over HTTPS.",
             "<br><br>",

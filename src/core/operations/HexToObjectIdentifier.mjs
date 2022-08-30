@@ -20,6 +20,7 @@ class HexToObjectIdentifier extends Operation {
 
         this.name = "Hex to Object Identifier";
         this.module = "PublicKey";
+        this.local="";
         this.description = "Converts a hexadecimal string into an object identifier (OID).";
         this.infoURL = "https://wikipedia.org/wiki/Object_identifier";
         this.inputType = "string";

@@ -21,6 +21,7 @@ class GenerateLoremIpsum extends Operation {
 
         this.name = "Generate Lorem Ipsum";
         this.module = "Default";
+        this.local="";
         this.description = "Generate varying length lorem ipsum placeholder text.";
         this.infoURL = "https://wikipedia.org/wiki/Lorem_ipsum";
         this.inputType = "string";

@@ -21,6 +21,7 @@ class FuzzyMatch extends Operation {
 
         this.name = "Fuzzy Match";
         this.module = "Default";
+        this.local="";
         this.description = "Conducts a fuzzy search to find a pattern within the input based on weighted criteria.<br><br>e.g. A search for <code>dpan</code> will match on <code><b>D</b>on't <b>Pan</b>ic</code>";
         this.infoURL = "https://wikipedia.org/wiki/Fuzzy_matching_(computer-assisted_translation)";
         this.inputType = "string";

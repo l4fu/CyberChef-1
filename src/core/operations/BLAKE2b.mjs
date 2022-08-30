@@ -23,6 +23,7 @@ class BLAKE2b extends Operation {
 
         this.name = "BLAKE2b";
         this.module = "Hashing";
+        this.local="";
         this.description = `Performs BLAKE2b hashing on the input.  
         <br><br> BLAKE2b is a flavour of the BLAKE cryptographic hash function that is optimized for 64-bit platforms and produces digests of any size between 1 and 64 bytes.
         <br><br> Supports the use of an optional key.`;

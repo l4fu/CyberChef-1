@@ -22,6 +22,7 @@ class FromBase62 extends Operation {
 
         this.name = "From Base62";
         this.module = "Default";
+        this.local="";
         this.description = "Base62 is a notation for encoding arbitrary byte data using a restricted set of symbols that can be conveniently used by humans and processed by computers. The high number base results in shorter strings than with the decimal or hexadecimal system.";
         this.infoURL = "https://wikipedia.org/wiki/List_of_numeral_systems";
         this.inputType = "string";

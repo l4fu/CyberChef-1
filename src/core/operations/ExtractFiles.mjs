@@ -33,6 +33,7 @@ class ExtractFiles extends Operation {
 
         this.name = "Extract Files";
         this.module = "Default";
+        this.local="";
         this.description = `Performs file carving to attempt to extract files from the input.<br><br>This operation is currently capable of carving out the following formats:
             <ul>
                 <li>

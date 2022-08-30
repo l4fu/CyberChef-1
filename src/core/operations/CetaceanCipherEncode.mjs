@@ -20,6 +20,7 @@ class CetaceanCipherEncode extends Operation {
 
         this.name = "Cetacean Cipher Encode";
         this.module = "Ciphers";
+        this.local="";
         this.description = "Converts any input into Cetacean Cipher. <br/><br/>e.g. <code>hi</code> becomes <code>EEEEEEEEEeeEeEEEEEEEEEEEEeeEeEEe</code>";
         this.infoURL = "https://hitchhikers.fandom.com/wiki/Dolphins";
         this.inputType = "string";

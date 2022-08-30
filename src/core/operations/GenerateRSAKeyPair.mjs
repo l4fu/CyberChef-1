@@ -22,6 +22,7 @@ class GenerateRSAKeyPair extends Operation {
 
         this.name = "Generate RSA Key Pair";
         this.module = "Ciphers";
+        this.local="";
         this.description = `Generate an RSA key pair with a given number of bits.<br><br>${cryptNotice}`;
         this.infoURL = "https://wikipedia.org/wiki/RSA_(cryptosystem)";
         this.inputType = "string";

@@ -23,6 +23,7 @@ class Gzip extends Operation {
 
         this.name = "Gzip";
         this.module = "Compression";
+        this.local="";
         this.description = "Compresses data using the deflate algorithm with gzip headers.";
         this.infoURL = "https://wikipedia.org/wiki/Gzip";
         this.inputType = "ArrayBuffer";

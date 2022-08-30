@@ -21,6 +21,7 @@ class A1Z26CipherEncode extends Operation {
 
         this.name = "A1Z26 Cipher Encode";
         this.module = "Ciphers";
+        this.local="";
         this.description = "Converts alphabet characters into their corresponding alphabet order number.<br><br>e.g. <code>a</code> becomes <code>1</code> and <code>b</code> becomes <code>2</code>.<br><br>Non-alphabet characters are dropped.";
         this.infoURL = "";
         this.inputType = "string";

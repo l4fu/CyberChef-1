@@ -21,6 +21,7 @@ class ToHexContent extends Operation {
 
         this.name = "To Hex Content";
         this.module = "Default";
+        this.local="";
         this.description = "Converts special characters in a string to hexadecimal. This format is used by SNORT for representing hex within ASCII text.<br><br>e.g. <code>foo=bar</code> becomes <code>foo|3d|bar</code>.";
         this.infoURL = "http://manual-snort-org.s3-website-us-east-1.amazonaws.com/node32.html#SECTION00451000000000000000";
         this.inputType = "ArrayBuffer";

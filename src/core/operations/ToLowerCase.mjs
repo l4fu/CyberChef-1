@@ -19,6 +19,7 @@ class ToLowerCase extends Operation {
 
         this.name = "To Lower case";
         this.module = "Default";
+        this.local="";
         this.description = "Converts every character in the input to lower case.";
         this.inputType = "string";
         this.outputType = "string";

@@ -22,6 +22,7 @@ class ConditionalJump extends Operation {
         this.name = "Conditional Jump";
         this.flowControl = true;
         this.module = "Default";
+        this.local="";
         this.description = "Conditionally jump forwards or backwards to the specified Label  based on whether the data matches the specified regular expression.";
         this.inputType = "string";
         this.outputType = "string";

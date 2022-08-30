@@ -19,6 +19,7 @@ class ROT8000 extends Operation {
         super();
         this.name = "ROT8000";
         this.module = "Default";
+        this.local="";
         this.description = "The simple Caesar-cypher encryption that replaces each Unicode character with the one 0x8000 places forward or back along the alphabet.";
         this.infoURL = "https://rot8000.com/info";
         this.inputType = "string";

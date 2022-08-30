@@ -26,6 +26,7 @@ class RandomizeColourPalette extends Operation {
 
         this.name = "Randomize Colour Palette";
         this.module = "Image";
+        this.local="";
         this.description = "Randomizes each colour in an image's colour palette. This can often reveal text or symbols that were previously a very similar colour to their surroundings, a technique sometimes used in Steganography.";
         this.infoURL = "https://wikipedia.org/wiki/Indexed_color";
         this.inputType = "ArrayBuffer";

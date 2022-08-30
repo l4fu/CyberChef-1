@@ -21,6 +21,7 @@ class OffsetChecker extends Operation {
 
         this.name = "Offset checker";
         this.module = "Default";
+        this.local="";
         this.description = "Compares multiple inputs (separated by the specified delimiter) and highlights matching characters which appear at the same position in all samples.";
         this.inputType = "string";
         this.outputType = "html";

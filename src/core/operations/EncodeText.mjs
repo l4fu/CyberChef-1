@@ -21,6 +21,7 @@ class EncodeText extends Operation {
 
         this.name = "Encode text";
         this.module = "Encodings";
+        this.local="";
         this.description = [
             "Encodes text into the chosen character encoding.",
             "<br><br>",

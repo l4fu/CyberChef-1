@@ -24,6 +24,7 @@ class PGPEncryptAndSign extends Operation {
 
         this.name = "PGP Encrypt and Sign";
         this.module = "PGP";
+        this.local="";
         this.description = [
             "Input: the cleartext you want to sign.",
             "<br><br>",

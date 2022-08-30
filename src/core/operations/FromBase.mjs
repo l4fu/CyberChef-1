@@ -21,6 +21,7 @@ class FromBase extends Operation {
 
         this.name = "From Base";
         this.module = "Default";
+        this.local="";
         this.description = "Converts a number to decimal from a given numerical base.";
         this.infoURL = "https://wikipedia.org/wiki/Radix";
         this.inputType = "string";

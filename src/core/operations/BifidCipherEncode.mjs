@@ -21,6 +21,7 @@ class BifidCipherEncode extends Operation {
 
         this.name = "Bifid Cipher Encode";
         this.module = "Ciphers";
+        this.local="";
         this.description = "The Bifid cipher is a cipher which uses a Polybius square in conjunction with transposition, which can be fairly difficult to decipher without knowing the alphabet keyword.";
         this.infoURL = "https://wikipedia.org/wiki/Bifid_cipher";
         this.inputType = "string";

@@ -21,6 +21,7 @@ class FromHexContent extends Operation {
 
         this.name = "From Hex Content";
         this.module = "Default";
+        this.local="";
         this.description = "Translates hexadecimal bytes in text back to raw bytes. This format is used by SNORT for representing hex within ASCII text.<br><br>e.g. <code>foo|3d|bar</code> becomes <code>foo=bar</code>.";
         this.infoURL = "http://manual-snort-org.s3-website-us-east-1.amazonaws.com/node32.html#SECTION00451000000000000000";
         this.inputType = "string";

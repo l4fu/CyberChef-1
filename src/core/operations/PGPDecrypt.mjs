@@ -24,6 +24,7 @@ class PGPDecrypt extends Operation {
 
         this.name = "PGP Decrypt";
         this.module = "PGP";
+        this.local="";
         this.description = [
             "Input: the ASCII-armoured PGP message you want to decrypt.",
             "<br><br>",

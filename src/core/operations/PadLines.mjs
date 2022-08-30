@@ -19,6 +19,7 @@ class PadLines extends Operation {
 
         this.name = "Pad lines";
         this.module = "Default";
+        this.local="";
         this.description = "Add the specified number of the specified character to the beginning or end of each line";
         this.inputType = "string";
         this.outputType = "string";

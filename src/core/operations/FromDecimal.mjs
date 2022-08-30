@@ -21,6 +21,7 @@ class FromDecimal extends Operation {
 
         this.name = "From Decimal";
         this.module = "Default";
+        this.local="";
         this.description = "Converts the data from an ordinal integer array back into its raw form.<br><br>e.g. <code>72 101 108 108 111</code> becomes <code>Hello</code>";
         this.inputType = "string";
         this.outputType = "byteArray";

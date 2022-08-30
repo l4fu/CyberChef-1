@@ -19,6 +19,7 @@ class BitShiftLeft extends Operation {
 
         this.name = "Bit shift left";
         this.module = "Default";
+        this.local="";
         this.description = "Shifts the bits in each byte towards the left by the specified amount.";
         this.infoURL = "https://wikipedia.org/wiki/Bitwise_operation#Bit_shifts";
         this.inputType = "ArrayBuffer";

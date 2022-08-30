@@ -21,6 +21,7 @@ class ExtractFilePaths extends Operation {
 
         this.name = "Extract file paths";
         this.module = "Regex";
+        this.local="";
         this.description = "Extracts anything that looks like a Windows or UNIX file path.<br><br>Note that if UNIX is selected, there will likely be a lot of false positives.";
         this.inputType = "string";
         this.outputType = "string";

@@ -22,6 +22,7 @@ class JSONToCSV extends Operation {
 
         this.name = "JSON to CSV";
         this.module = "Default";
+        this.local="";
         this.description = "Converts JSON data to a CSV based on the definition in RFC 4180.";
         this.infoURL = "https://wikipedia.org/wiki/Comma-separated_values";
         this.inputType = "JSON";

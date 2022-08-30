@@ -33,6 +33,7 @@ class HASSHServerFingerprint extends Operation {
 
         this.name = "HASSH Server Fingerprint";
         this.module = "Crypto";
+        this.local="";
         this.description = "Generates a HASSH fingerprint to help identify SSH servers based on hashing together values from the Server Key Exchange Init message.<br><br>Input: A hex stream of the SSH_MSG_KEXINIT packet application layer from Server to Client.";
         this.infoURL = "https://engineering.salesforce.com/open-sourcing-hassh-abed3ae5044c";
         this.inputType = "string";

@@ -20,6 +20,7 @@ class SHA1 extends Operation {
 
         this.name = "SHA1";
         this.module = "Crypto";
+        this.local="";
         this.description = "The SHA (Secure Hash Algorithm) hash functions were designed by the NSA. SHA-1 is the most established of the existing SHA hash functions and it is used in a variety of security applications and protocols.<br><br>However, SHA-1's collision resistance has been weakening as new attacks are discovered or improved. The message digest algorithm consists, by default, of 80 rounds.";
         this.infoURL = "https://wikipedia.org/wiki/SHA-1";
         this.inputType = "ArrayBuffer";

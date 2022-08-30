@@ -20,6 +20,7 @@ class Split extends Operation {
 
         this.name = "Split";
         this.module = "Default";
+        this.local="";
         this.description = "Splits a string into sections around a given delimiter.";
         this.inputType = "string";
         this.outputType = "string";

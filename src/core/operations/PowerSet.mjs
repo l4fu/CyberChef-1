@@ -19,6 +19,7 @@ class PowerSet extends Operation {
 
         this.name = "Power Set";
         this.module = "Default";
+        this.local="";
         this.description = "Calculates all the subsets of a set.";
         this.infoURL = "https://wikipedia.org/wiki/Power_set";
         this.inputType = "string";

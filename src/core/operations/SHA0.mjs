@@ -20,6 +20,7 @@ class SHA0 extends Operation {
 
         this.name = "SHA0";
         this.module = "Crypto";
+        this.local="";
         this.description = "SHA-0 is a retronym applied to the original version of the 160-bit hash function published in 1993 under the name 'SHA'. It was withdrawn shortly after publication due to an undisclosed 'significant flaw' and replaced by the slightly revised version SHA-1. The message digest algorithm consists, by default, of 80 rounds.";
         this.infoURL = "https://wikipedia.org/wiki/SHA-1#SHA-0";
         this.inputType = "ArrayBuffer";

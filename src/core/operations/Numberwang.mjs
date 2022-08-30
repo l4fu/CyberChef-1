@@ -19,6 +19,7 @@ class Numberwang extends Operation {
 
         this.name = "Numberwang";
         this.module = "Default";
+        this.local="";
         this.description = "Based on the popular gameshow by Mitchell and Webb.";
         this.infoURL = "https://wikipedia.org/wiki/That_Mitchell_and_Webb_Look#Recurring_sketches";
         this.inputType = "string";

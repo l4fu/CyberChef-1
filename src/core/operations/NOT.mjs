@@ -20,6 +20,7 @@ class NOT extends Operation {
 
         this.name = "NOT";
         this.module = "Default";
+        this.local="";
         this.description = "Returns the inverse of each byte.";
         this.infoURL = "https://wikipedia.org/wiki/Bitwise_operation#NOT";
         this.inputType = "ArrayBuffer";

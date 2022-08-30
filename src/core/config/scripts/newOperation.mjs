@@ -146,6 +146,7 @@ class ${moduleName} extends Operation {
 
         this.name = "${result.opName}";
         this.module = "${result.module}";
+        this.local = "${(new EscapeString).run(result.local, ["Special chars", "Double"])}";
         this.description = "${(new EscapeString).run(result.description, ["Special chars", "Double"])}";
         this.infoURL = "${result.infoURL}";
         this.inputType = "${result.inputType}";

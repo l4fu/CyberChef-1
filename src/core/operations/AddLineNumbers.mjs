@@ -19,6 +19,7 @@ class AddLineNumbers extends Operation {
 
         this.name = "Add line numbers";
         this.module = "Default";
+        this.local="";
         this.description = "Adds line numbers to the output.";
         this.inputType = "string";
         this.outputType = "string";

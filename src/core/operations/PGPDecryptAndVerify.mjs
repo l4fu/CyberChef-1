@@ -24,6 +24,7 @@ class PGPDecryptAndVerify extends Operation {
 
         this.name = "PGP Decrypt and Verify";
         this.module = "PGP";
+        this.local="";
         this.description = [
             "Input: the ASCII-armoured encrypted PGP message you want to verify.",
             "<br><br>",

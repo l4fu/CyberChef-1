@@ -22,6 +22,7 @@ class FromBase85 extends Operation {
 
         this.name = "From Base85";
         this.module = "Default";
+        this.local="";
         this.description = "Base85 (also called Ascii85) is a notation for encoding arbitrary byte data. It is usually more efficient that Base64.<br><br>This operation decodes data from an ASCII string (with an alphabet of your choosing, presets included).<br><br>e.g. <code>BOu!rD]j7BEbo7</code> becomes <code>hello world</code><br><br>Base85 is commonly used in Adobe's PostScript and PDF file formats.";
         this.infoURL = "https://wikipedia.org/wiki/Ascii85";
         this.inputType = "string";

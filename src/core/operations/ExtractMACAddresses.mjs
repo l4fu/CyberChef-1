@@ -21,6 +21,7 @@ class ExtractMACAddresses extends Operation {
 
         this.name = "Extract MAC addresses";
         this.module = "Regex";
+        this.local="";
         this.description = "Extracts all Media Access Control (MAC) addresses from the input.";
         this.inputType = "string";
         this.outputType = "string";

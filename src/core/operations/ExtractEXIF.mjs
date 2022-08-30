@@ -21,6 +21,7 @@ class ExtractEXIF extends Operation {
 
         this.name = "Extract EXIF";
         this.module = "Image";
+        this.local="";
         this.description = [
             "Extracts EXIF data from an image.",
             "<br><br>",

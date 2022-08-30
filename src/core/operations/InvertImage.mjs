@@ -25,6 +25,7 @@ class InvertImage extends Operation {
 
         this.name = "Invert Image";
         this.module = "Image";
+        this.local="";
         this.description = "Invert the colours of an image.";
         this.infoURL = "";
         this.inputType = "ArrayBuffer";

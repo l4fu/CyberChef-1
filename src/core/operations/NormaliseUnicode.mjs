@@ -22,6 +22,7 @@ class NormaliseUnicode extends Operation {
 
         this.name = "Normalise Unicode";
         this.module = "Encodings";
+        this.local="";
         this.description = "Transform Unicode characters to one of the Normalisation Forms";
         this.infoURL = "https://wikipedia.org/wiki/Unicode_equivalence#Normal_forms";
         this.inputType = "string";

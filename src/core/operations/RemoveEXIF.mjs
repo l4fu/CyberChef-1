@@ -21,6 +21,7 @@ class RemoveEXIF extends Operation {
 
         this.name = "Remove EXIF";
         this.module = "Image";
+        this.local="";
         this.description = [
             "Removes EXIF data from a JPEG image.",
             "<br><br>",

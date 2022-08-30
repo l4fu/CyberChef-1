@@ -20,6 +20,7 @@ class Comment extends Operation {
         this.name = "Comment";
         this.flowControl = true;
         this.module = "Default";
+        this.local="";
         this.description = "Provides a place to write comments within the flow of the recipe. This operation has no computational effect.";
         this.inputType = "string";
         this.outputType = "string";

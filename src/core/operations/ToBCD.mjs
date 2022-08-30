@@ -23,6 +23,7 @@ class ToBCD extends Operation {
 
         this.name = "To BCD";
         this.module = "Default";
+        this.local="";
         this.description = "Binary-Coded Decimal (BCD) is a class of binary encodings of decimal numbers where each decimal digit is represented by a fixed number of bits, usually four or eight. Special bit patterns are sometimes used for a sign";
         this.infoURL = "https://wikipedia.org/wiki/Binary-coded_decimal";
         this.inputType = "BigNumber";

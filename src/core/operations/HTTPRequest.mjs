@@ -21,6 +21,7 @@ class HTTPRequest extends Operation {
 
         this.name = "HTTP request";
         this.module = "Default";
+        this.local="";
         this.description = [
             "Makes an HTTP request and returns the response.",
             "<br><br>",

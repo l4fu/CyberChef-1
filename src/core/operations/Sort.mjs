@@ -22,6 +22,7 @@ class Sort extends Operation {
 
         this.name = "Sort";
         this.module = "Default";
+        this.local="";
         this.description = "Alphabetically sorts strings separated by the specified delimiter.<br><br>The IP address option supports IPv4 only.";
         this.inputType = "string";
         this.outputType = "string";

@@ -20,6 +20,7 @@ class CSSMinify extends Operation {
 
         this.name = "CSS Minify";
         this.module = "Code";
+        this.local="";
         this.description = "Compresses Cascading Style Sheets (CSS) code.";
         this.inputType = "string";
         this.outputType = "string";

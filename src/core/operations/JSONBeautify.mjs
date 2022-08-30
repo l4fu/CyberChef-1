@@ -23,6 +23,7 @@ class JSONBeautify extends Operation {
 
         this.name = "JSON Beautify";
         this.module = "Code";
+        this.local="";
         this.description = "Indents and pretty prints JavaScript Object Notation (JSON) code.<br><br>Tags: json viewer, prettify, syntax highlighting";
         this.inputType = "string";
         this.outputType = "string";

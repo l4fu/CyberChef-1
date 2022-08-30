@@ -25,6 +25,7 @@ class FlipImage extends Operation {
 
         this.name = "Flip Image";
         this.module = "Image";
+        this.local="";
         this.description = "Flips an image along its X or Y axis.";
         this.infoURL = "";
         this.inputType = "ArrayBuffer";

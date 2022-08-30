@@ -20,6 +20,7 @@ class CartesianProduct extends Operation {
 
         this.name = "Cartesian Product";
         this.module = "Default";
+        this.local="";
         this.description = "Calculates the cartesian product of multiple sets of data, returning all possible combinations.";
         this.infoURL = "https://wikipedia.org/wiki/Cartesian_product";
         this.inputType = "string";

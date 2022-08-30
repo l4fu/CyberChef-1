@@ -27,6 +27,7 @@ class GeneratePGPKeyPair extends Operation {
 
         this.name = "Generate PGP Key Pair";
         this.module = "PGP";
+        this.local="";
         this.description = `Generates a new public/private PGP key pair. Supports RSA and Eliptic Curve (EC) keys.<br><br>${cryptNotice}`;
         this.infoURL = "https://wikipedia.org/wiki/Pretty_Good_Privacy";
         this.inputType = "string";

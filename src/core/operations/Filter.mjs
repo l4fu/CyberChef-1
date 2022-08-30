@@ -23,6 +23,7 @@ class Filter extends Operation {
 
         this.name = "Filter";
         this.module = "Regex";
+        this.local="";
         this.description = "Splits up the input using the specified delimiter and then filters each branch based on a regular expression.";
         this.inputType = "string";
         this.outputType = "string";

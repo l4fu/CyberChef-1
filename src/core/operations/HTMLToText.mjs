@@ -20,6 +20,7 @@ class HTMLToText extends Operation {
 
         this.name = "HTML To Text";
         this.module = "Default";
+        this.local="";
         this.description = "Converts an HTML output from an operation to a readable string instead of being rendered in the DOM.";
         this.infoURL = "";
         this.inputType = "html";

@@ -20,6 +20,7 @@ class CountOccurrences extends Operation {
 
         this.name = "Count occurrences";
         this.module = "Default";
+        this.local="";
         this.description = "Counts the number of times the provided string occurs in the input.";
         this.inputType = "string";
         this.outputType = "number";

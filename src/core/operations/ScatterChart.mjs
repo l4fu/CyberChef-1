@@ -28,6 +28,7 @@ class ScatterChart extends Operation {
 
         this.name = "Scatter chart";
         this.module = "Charts";
+        this.local="";
         this.description = "Plots two-variable data as single points on a graph.";
         this.infoURL = "https://wikipedia.org/wiki/Scatter_plot";
         this.inputType = "string";

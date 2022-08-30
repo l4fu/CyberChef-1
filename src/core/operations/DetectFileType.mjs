@@ -28,6 +28,7 @@ class DetectFileType extends Operation {
 
         this.name = "Detect File Type";
         this.module = "Default";
+        this.local="";
         this.description = "Attempts to guess the MIME (Multipurpose Internet Mail Extensions) type of the data based on 'magic bytes'.<br><br>Currently supports the following file types: " +
             exts + ".";
         this.infoURL = "https://wikipedia.org/wiki/List_of_file_signatures";

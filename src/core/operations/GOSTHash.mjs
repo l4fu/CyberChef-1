@@ -22,6 +22,7 @@ class GOSTHash extends Operation {
 
         this.name = "GOST hash";
         this.module = "Hashing";
+        this.local="";
         this.description = "The GOST hash function, defined in the standards GOST R 34.11-94 and GOST 34.311-95 is a 256-bit cryptographic hash function. It was initially defined in the Russian national standard GOST R 34.11-94 <i>Information Technology – Cryptographic Information Security – Hash Function</i>. The equivalent standard used by other member-states of the CIS is GOST 34.311-95.<br><br>This function must not be confused with a different Streebog hash function, which is defined in the new revision of the standard GOST R 34.11-2012.<br><br>The GOST hash function is based on the GOST block cipher.";
         this.infoURL = "https://wikipedia.org/wiki/GOST_(hash_function)";
         this.inputType = "ArrayBuffer";

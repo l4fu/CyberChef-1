@@ -21,6 +21,7 @@ class Shake extends Operation {
 
         this.name = "Shake";
         this.module = "Crypto";
+        this.local="";
         this.description = "Shake is an Extendable Output Function (XOF) of the SHA-3 hash algorithm, part of the Keccak family, allowing for variable output length/size.";
         this.infoURL = "https://wikipedia.org/wiki/SHA-3#Instances";
         this.inputType = "ArrayBuffer";

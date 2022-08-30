@@ -21,6 +21,7 @@ class ExtractEmailAddresses extends Operation {
 
         this.name = "Extract email addresses";
         this.module = "Regex";
+        this.local="";
         this.description = "Extracts all email addresses from the input.";
         this.inputType = "string";
         this.outputType = "string";

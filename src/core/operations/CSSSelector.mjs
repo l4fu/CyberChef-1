@@ -22,6 +22,7 @@ class CSSSelector extends Operation {
 
         this.name = "CSS selector";
         this.module = "Code";
+        this.local="";
         this.description = "Extract information from an HTML document with a CSS selector";
         this.infoURL = "https://wikipedia.org/wiki/Cascading_Style_Sheets#Selector";
         this.inputType = "string";

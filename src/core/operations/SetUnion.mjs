@@ -20,6 +20,7 @@ class SetUnion extends Operation {
 
         this.name = "Set Union";
         this.module = "Default";
+        this.local="";
         this.description = "Calculates the union of two sets.";
         this.infoURL = "https://wikipedia.org/wiki/Union_(set_theory)";
         this.inputType = "string";

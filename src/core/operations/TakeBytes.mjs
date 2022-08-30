@@ -19,6 +19,7 @@ class TakeBytes extends Operation {
 
         this.name = "Take bytes";
         this.module = "Default";
+        this.local="";
         this.description = "Takes a slice of the specified number of bytes from the data. Negative values are allowed.";
         this.inputType = "ArrayBuffer";
         this.outputType = "ArrayBuffer";

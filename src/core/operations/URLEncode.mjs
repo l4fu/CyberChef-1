@@ -19,6 +19,7 @@ class URLEncode extends Operation {
 
         this.name = "URL Encode";
         this.module = "URL";
+        this.local="";
         this.description = "Encodes problematic characters into percent-encoding, a format supported by URIs/URLs.<br><br>e.g. <code>=</code> becomes <code>%3d</code>";
         this.infoURL = "https://wikipedia.org/wiki/Percent-encoding";
         this.inputType = "string";

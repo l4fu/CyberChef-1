@@ -23,6 +23,7 @@ class RSASign extends Operation {
 
         this.name = "RSA Sign";
         this.module = "Ciphers";
+        this.local="";
         this.description = "Sign a plaintext message with a PEM encoded RSA key.";
         this.infoURL = "https://wikipedia.org/wiki/RSA_(cryptosystem)";
         this.inputType = "string";

@@ -19,6 +19,7 @@ class ConvertSpeed extends Operation {
 
         this.name = "Convert speed";
         this.module = "Default";
+        this.local="";
         this.description = "Converts a unit of speed to another format.";
         this.infoURL = "https://wikipedia.org/wiki/Orders_of_magnitude_(speed)";
         this.inputType = "BigNumber";

@@ -29,6 +29,7 @@ class RawDeflate extends Operation {
 
         this.name = "Raw Deflate";
         this.module = "Compression";
+        this.local="";
         this.description = "Compresses data using the deflate algorithm with no headers.";
         this.infoURL = "https://wikipedia.org/wiki/DEFLATE";
         this.inputType = "ArrayBuffer";

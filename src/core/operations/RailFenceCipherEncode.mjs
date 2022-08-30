@@ -20,6 +20,7 @@ class RailFenceCipherEncode extends Operation {
 
         this.name = "Rail Fence Cipher Encode";
         this.module = "Ciphers";
+        this.local="";
         this.description = "Encodes Strings using the Rail fence Cipher provided a key and an offset";
         this.infoURL = "https://wikipedia.org/wiki/Rail_fence_cipher";
         this.inputType = "string";

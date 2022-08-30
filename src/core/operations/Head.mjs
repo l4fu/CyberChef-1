@@ -21,6 +21,7 @@ class Head extends Operation {
 
         this.name = "Head";
         this.module = "Default";
+        this.local="";
         this.description = "Like the UNIX head utility.<br>Gets the first n lines.<br>You can select all but the last n lines by entering a negative value for n.<br>The delimiter can be changed so that instead of lines, fields (i.e. commas) are selected instead.";
         this.inputType = "string";
         this.outputType = "string";

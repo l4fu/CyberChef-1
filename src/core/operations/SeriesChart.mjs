@@ -28,6 +28,7 @@ class SeriesChart extends Operation {
 
         this.name = "Series chart";
         this.module = "Charts";
+        this.local="";
         this.description = "A time series graph is a line graph of repeated measurements taken over regular time intervals.";
         this.inputType = "string";
         this.outputType = "html";

@@ -20,6 +20,7 @@ class ToUpperCase extends Operation {
 
         this.name = "To Upper case";
         this.module = "Default";
+        this.local="";
         this.description = "Converts the input string to upper case, optionally limiting scope to only the first character in each word, sentence or paragraph.";
         this.inputType = "string";
         this.outputType = "string";

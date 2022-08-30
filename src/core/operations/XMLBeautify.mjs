@@ -20,6 +20,7 @@ class XMLBeautify extends Operation {
 
         this.name = "XML Beautify";
         this.module = "Code";
+        this.local="";
         this.description = "Indents and prettifies eXtensible Markup Language (XML) code.";
         this.inputType = "string";
         this.outputType = "string";

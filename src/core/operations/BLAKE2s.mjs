@@ -23,6 +23,7 @@ class BLAKE2s extends Operation {
 
         this.name = "BLAKE2s";
         this.module = "Hashing";
+        this.local="";
         this.description = `Performs BLAKE2s hashing on the input.  
         <br><br>BLAKE2s is a flavour of the BLAKE cryptographic hash function that is optimized for 8- to 32-bit platforms and produces digests of any size between 1 and 32 bytes.
         <br><br>Supports the use of an optional key.`;

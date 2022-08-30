@@ -25,6 +25,7 @@ class AddTextToImage extends Operation {
 
         this.name = "Add Text To Image";
         this.module = "Image";
+        this.local="";
         this.description = "Adds text onto an image.<br><br>Text can be horizontally or vertically aligned, or the position can be manually specified.<br>Variants of the Roboto font face are available in any size or colour.";
         this.infoURL = "";
         this.inputType = "ArrayBuffer";

@@ -21,6 +21,7 @@ class ProtobufEncode extends Operation {
 
         this.name = "Protobuf Encode";
         this.module = "Protobuf";
+        this.local="";
         this.description = "Encodes a valid JSON object into a protobuf byte array using the input .proto schema.";
         this.infoURL = "https://developers.google.com/protocol-buffers/docs/encoding";
         this.inputType = "JSON";

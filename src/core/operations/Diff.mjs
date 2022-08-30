@@ -22,6 +22,7 @@ class Diff extends Operation {
 
         this.name = "Diff";
         this.module = "Diff";
+        this.local="";
         this.description = "Compares two inputs (separated by the specified delimiter) and highlights the differences between them.";
         this.infoURL = "https://wikipedia.org/wiki/File_comparison";
         this.inputType = "string";
