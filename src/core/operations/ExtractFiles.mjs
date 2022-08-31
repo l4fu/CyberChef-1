@@ -35,7 +35,7 @@ class ExtractFiles extends Operation {
         this.module = "Default";
         this.local="";
         this.description = "执行文件雕刻以尝试从输入中提取文件<br><br>此操作当前能够雕刻出以下格式：Performs file carving to attempt to extract files from the input.<br><br>This operation is currently capable of carving out the following formats"+
-            "<ul><li>"+`${supportedExts.join('</li><li>')}`+"</li></ul>Minimum File Size can be used to prune small false positives.";
+            "<ul><li>"+supportedExts.join('</li><li>')+"</li></ul>Minimum File Size can be used to prune small false positives.";
         this.infoURL = "https://forensicswiki.xyz/wiki/index.php?title=File_Carving";
         this.inputType = "ArrayBuffer";
         this.outputType = "List<File>";
