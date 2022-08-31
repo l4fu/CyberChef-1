@@ -23,7 +23,7 @@ class RegularExpression extends Operation {
         this.name = "Regular expression";
         this.module = "Regex";
         this.local="";
-        this.description = "定义您自己的正则表达式（regex）以搜索输入数据,可选地从预定义模式列表中进行选择<br><br>支持扩展正则表达式语法,包括“点匹配所有”标志、命名捕获组、完整的unicode覆盖率（包括<code>\ \ p{}</code>类别和脚本以及星体代码）和递归匹配。Define your own regular expression (regex) to search the input data with, optionally choosing from a list of pre-defined patterns.<br><br>Supports extended regex syntax including the 'dot matches all' flag, named capture groups, full unicode coverage (including <code>\\p{}</code> categories and scripts as well as astral codes) and recursive matching.";
+        this.description = "定义您自己的正则表达式（regex）以搜索输入数据,可选地从预定义模式列表中进行选择<br><br>支持扩展正则表达式语法,包括“点匹配所有”标志、命名捕获组、完整的unicode覆盖率（包括<code>、、 p{}</code>类别和脚本以及星体代码）和递归匹配。Define your own regular expression (regex) to search the input data with, optionally choosing from a list of pre-defined patterns.<br><br>Supports extended regex syntax including the 'dot matches all' flag, named capture groups, full unicode coverage (including <code>、、p{}</code> categories and scripts as well as astral codes) and recursive matching.";
         this.infoURL = "https://wikipedia.org/wiki/Regular_expression";
         this.inputType = "string";
         this.outputType = "html";

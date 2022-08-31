@@ -22,7 +22,7 @@ class HTTPRequest extends Operation {
         this.name = "HTTP request";
         this.module = "Default";
         this.local="";
-        this.description = "发出HTTP请求并返回响应<br><br>此操作支持不同的HTTP谓词,如GET、POST、PUT等。<br><br>您可以按以下格式逐行添加标题：<code>键：值</code><br><br>通过选中“显示响应元数据”选项,可以查看响应的状态代码以及有限的公开标题。出于安全原因,浏览器仅公开一组有限的响应头。Makes an HTTP request and returns the response.<br><br>This operation supports different HTTP verbs like GET, POST, PUT, etc.<br><br>You can add headers line by line in the format <code>Key: Value</code><br><br>The status code of the response, along with a limited selection of exposed headers, can be viewed by checking the 'Show response metadata' option. Only a limited set of response headers are exposed by the browser for security reasons.",
+        this.description = "发出HTTP请求并返回响应<br><br>此操作支持不同的HTTP谓词,如GET、POST、PUT等。<br><br>您可以按以下格式逐行添加标题：<code>键：值</code><br><br>通过选中“显示响应元数据”选项,可以查看响应的状态代码以及有限的公开标题。出于安全原因,浏览器仅公开一组有限的响应头。Makes an HTTP request and returns the response.<br><br>This operation supports different HTTP verbs like GET, POST, PUT, etc.<br><br>You can add headers line by line in the format <code>Key: Value</code><br><br>The status code of the response, along with a limited selection of exposed headers, can be viewed by checking the 'Show response metadata' option. Only a limited set of response headers are exposed by the browser for security reasons.";
         
         this.infoURL = "https://wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields";
         this.inputType = "string";

@@ -23,7 +23,7 @@ class GenerateRSAKeyPair extends Operation {
         this.name = "Generate RSA Key Pair";
         this.module = "Ciphers";
         this.local="";
-        this.description = "生成具有给定位数的RSA密钥对。<br><br>${cryptNotice}Generate an RSA key pair with a given number of bits.<br><br>${cryptNotice}";
+        this.description = "生成具有给定位数的RSA密钥对。<br><br>Generate an RSA key pair with a given number of bits.<br><br>"+`${cryptNotice}`;
         this.infoURL = "https://wikipedia.org/wiki/RSA_(cryptosystem)";
         this.inputType = "string";
         this.outputType = "string";
