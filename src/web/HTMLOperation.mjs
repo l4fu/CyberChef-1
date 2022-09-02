@@ -25,7 +25,7 @@ class HTMLOperation {
     constructor(name, config, app, manager) {
         this.app         = app;
         this.manager     = manager;
-        
+
         this.name        = name;
         this.description = config.description;
         this.infoURL     = config.infoURL;
@@ -52,7 +52,8 @@ class HTMLOperation {
             const infoLink = this.infoURL ? `<hr>${titleFromWikiLink(this.infoURL)}` : "";
 
             html += "data-container='body' data-toggle='popover' data-placement='right'"+
-                "data-content='"+this.description+infoLink+"' data-html='true' data-trigger='hover' data-boundary='viewport'";  }
+                "data-content='"+this.description+infoLink+"' data-html='true' data-trigger='hover' data-boundary='viewport'";  
+            }
 
         html += ">" + this.name;
 
