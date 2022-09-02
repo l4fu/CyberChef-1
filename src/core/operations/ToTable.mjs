@@ -34,7 +34,7 @@ class ToTable extends Operation {
             {
                 "name": "Row delimiters",
                 "type": "binaryShortString",
-                "value": "0000r0000n"
+                "value": "\\r\\n"
             },
             {
                 "name": "Make first row header",
@@ -123,7 +123,7 @@ class ToTable extends Operation {
                 row.forEach(function(cell, index) {
                     rowOutput += " " + cell + " ".repeat(longestCells[index] - cell.length) + " " + verticalBorder;
                 });
-                rowOutput += "00n";
+                rowOutput += "\n";
                 return rowOutput;
             }
 
@@ -136,7 +136,7 @@ class ToTable extends Operation {
                 longestCells.forEach(function(cellLength) {
                     rowOutput += horizontalBorder.repeat(cellLength + 2) + crossBorder;
                 });
-                rowOutput += "00n";
+                rowOutput += "\n";
                 return rowOutput;
             }
         }
