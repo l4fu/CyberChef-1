@@ -25,7 +25,7 @@ class HTMLOperation {
     constructor(name, config, app, manager) {
         this.app         = app;
         this.manager     = manager;
-
+        this.local       = config.local
         this.name        = name;
         this.description = config.description;
         this.infoURL     = config.infoURL;
@@ -56,7 +56,7 @@ class HTMLOperation {
                 data-boundary='viewport'`;
         }
 
-        html += " >" + this.name+this.config.local;/* 本地化的部分 */
+        html += " >" + this.name+this.local;/* 本地化的部分 */
 
         if (removeIcon) {
             html += "<i class='material-icons remove-icon op-icon'>delete</i>";
