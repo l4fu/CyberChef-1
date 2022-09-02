@@ -21,7 +21,7 @@ class HTMLIngredient {
     constructor(config, app, manager) {
         this.app = app;
         this.manager = manager;
-
+        this.local = config.local; /**本次化的部分 */
         this.name = config.name;
         this.type = config.type;
         this.value = config.value;
