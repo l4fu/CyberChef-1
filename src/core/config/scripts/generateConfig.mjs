@@ -35,7 +35,7 @@ for (const opObj in Ops) {
     const op = new Ops[opObj]();
 
     operationConfig[op.name] = {
-        local:       op.local + op.description.substring(0, 14),/*  本地化的部分 */
+        local:       op.local + op.description.substring(0, 14), /* 本地化的部分 */
         module:      op.module,
         description: op.description,
         infoURL:     op.infoURL,
