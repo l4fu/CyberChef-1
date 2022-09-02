@@ -1,4 +1,4 @@
-# CyberChef
+# CyberChef  
 
 [![](https://github.com/gchq/CyberChef/workflows/Master%20Build,%20Test%20&%20Deploy/badge.svg)](https://github.com/gchq/CyberChef/actions?query=workflow%3A%22Master+Build%2C+Test+%26+Deploy%22)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/gchq/CyberChef.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/gchq/CyberChef/context:javascript)
@@ -6,6 +6,11 @@
 [![](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/gchq/CyberChef/blob/master/LICENSE)
 [![Gitter](https://badges.gitter.im/gchq/CyberChef.svg)](https://gitter.im/gchq/CyberChef?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
+## CyberChef_zh_cn | 汉化版CyberChef
+
+CyberChef是一个简单、直观的web应用程序，用于在web浏览器中执行各种“网络”操作。这些操作包括XOR和Base64等简单编码，AES、DES和Blowfish等更复杂的加密，创建二进制和六进制转储，数据压缩和解压缩，计算哈希和校验和，IPv6和X.509解析，更改字符编码等。
+该工具旨在使技术和非技术分析师能够以复杂的方式操作数据，而无需处理复杂的工具或算法。它是由一位分析师在几年内10%的创新时间内构思、设计、建造和逐步改进的。
+通过百度翻译的API接口进行自动汉化翻译。
 
 #### *The Cyber Swiss Army Knife*
 
