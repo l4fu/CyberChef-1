@@ -47,6 +47,12 @@ If your operation does not rely on a library, just leave this blank and it will 
             message: "Module names should start with a capital letter and not contain any spaces or symbols.",
             default: "Default"
         },
+        local: {
+            description: "The  ve examples of ex looking for your operation.",
+            example: "Converts URI/URL percen code>=</code>",
+            prompt: "Local",
+            type: "string"
+        },        
         description: {
             description: "The description should explain what the operation is and how it works. It can describe how the arguments should be entered and give examples of expected input and output. HTML markup is supported. Use <code> tags for examples. The description is scanned during searches, so include terms that are likely to be searched for when someone is looking for your operation.",
             example: "Converts URI/URL percent-encoded characters back to their raw values.<br><br>e.g. <code>%3d</code> becomes <code>=</code>",

@@ -29,6 +29,7 @@ class Operation {
         // Public fields
         this.name             = "";
         this.module           = "";
+        this.local            = ""; /** 本地化的部分 */
         this.description      = "";
         this.infoURL          = null;
     }

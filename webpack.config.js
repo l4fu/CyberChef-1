@@ -181,25 +181,25 @@ module.exports = {
                 test: /\.(ico|eot|ttf|woff|woff2)$/,
                 type: "asset/resource",
             },
-            {
-                test: /\.svg$/,
-                type: "asset/inline",
-            },
+            // {
+            //     test: /\.svg$/,
+            //     type: "asset/inline",
+            // },
             { // Store font .fnt and .png files in a separate fonts folder
                 test: /(\.fnt$|bmfonts\/.+\.png$)/,
                 type: "asset/resource",
-                generator: { //meng
+                generator: { 
                     filename: "assets/fonts/[name][ext]"
                 }
             },
             { // First party images are saved as files to be cached
-                test: /\.(png|jpg|gif)$/,
+                test: /\.(png|jpg|gif|svg)$/,
                 exclude: /(node_modules|bmfonts)/,
                 type: "asset/resource",
-                generator: { //meng 
+                generator: {
                     filename: "images/[name][ext]"
                 }
-            },
+            },  
             { // Third party images are inlined
                 test: /\.(png|jpg|gif)$/,
                 exclude: /web\/static/,
