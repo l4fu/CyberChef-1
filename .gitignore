@@ -12,6 +12,6 @@ src/node/index.mjs
 **/*.DS_Store
 tests/browser/output/*
 .node-version
-change.py
+localize/change.py
 
 src/core/operations123
