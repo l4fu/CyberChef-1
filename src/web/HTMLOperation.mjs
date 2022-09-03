@@ -56,7 +56,7 @@ class HTMLOperation {
                 data-boundary='viewport'`;
         }
 
-        html += " >" + this.name;/* + this.local;本地化的部分 */
+        html += " >" + this.name + this.local; /* ;/*本地化的部分 */
 
         if (removeIcon) {
             html += "<i class='material-icons remove-icon op-icon'>delete</i>";
