@@ -118,8 +118,8 @@ class OperationsWaiter {
 
             // Match op name using fuzzy match
             // const [nameMatch, score, idxs] = fuzzyMatch(inStrNWS, opName);
-            // // Match op name using fuzzy match
-            opSearch= opName + op.description.split("。")[0]
+            // // Match op name using fuzzy match    meng
+            opSearch= opName
             const [nameMatch, score, idxs] = fuzzyMatch(inStrNWS, opSearch);
 
             // Match description based on exact match
