@@ -117,7 +117,9 @@ class OperationsWaiter {
             const op = this.app.operations[opName];
 
             // Match op name using fuzzy match
-            const [nameMatch, score, idxs] = fuzzyMatch(inStrNWS, opName);
+            const [nameMatch, score, idxs] = fuzzyMatch(inStrNWS, opName + op.description);
+            // // Match op name using fuzzy match
+            // const [nameMatch, score, idxs] = fuzzyMatch(inStrNWS, op.description);
 
             // Match description based on exact match
             const descPos = op.description.toLowerCase().indexOf(inStr.toLowerCase());
