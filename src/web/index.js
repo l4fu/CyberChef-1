@@ -38,7 +38,7 @@ function main() {
         "Fork",
         "Magic"
     ];
-
+    
     const defaultOptions = {
         updateUrl:           true,
         showHighlighter:     true,
@@ -56,7 +56,7 @@ function main() {
         syncTabs:            true,
         preserveCR:          "entropy"
     };
-
+    /* console.log(OperationConfig) */
     document.removeEventListener("DOMContentLoaded", main, false);
     window.app = new App(Categories, OperationConfig, defaultFavourites, defaultOptions);
     window.app.setup();
