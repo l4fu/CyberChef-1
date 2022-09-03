@@ -61,7 +61,7 @@ module.exports = {
             "process.browser": "true"
         }),
         new MiniCssExtractPlugin({
-            filename: "assets/[name].css"
+            filename: "assets/[name].css"   
         }),
         new CopyWebpackPlugin({
             patterns: [
@@ -188,7 +188,7 @@ module.exports = {
             { // Store font .fnt and .png files in a separate fonts folder
                 test: /(\.fnt$|bmfonts\/.+\.png$)/,
                 type: "asset/resource",
-                generator: {
+                generator: { //meng
                     filename: "assets/fonts/[name][ext]"
                 }
             },
@@ -196,7 +196,7 @@ module.exports = {
                 test: /\.(png|jpg|gif)$/,
                 exclude: /(node_modules|bmfonts)/,
                 type: "asset/resource",
-                generator: {
+                generator: { //meng 
                     filename: "images/[name][ext]"
                 }
             },

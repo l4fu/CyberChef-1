@@ -25,7 +25,7 @@ class HTMLOperation {
     constructor(name, config, app, manager) {
         this.app         = app;
         this.manager     = manager;
-        this.local       = config.local
+        this.local       = config.local; /* 本地化的部分 */
         this.name        = name;
         this.description = config.description;
         this.infoURL     = config.infoURL;
